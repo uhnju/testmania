@@ -12,7 +12,10 @@
     <script src="./app.iife.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', () => {
-            if (!window.CuestionariosApp) { console.error('CuestionariosApp no está definido'); return; }
+            if (!window.CuestionariosApp) {
+                console.error('CuestionariosApp no está definido');
+                return;
+            }
             window.CuestionariosApp.mount('#root');
         });
     </script>
