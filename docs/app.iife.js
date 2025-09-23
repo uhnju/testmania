@@ -1,4 +1,4 @@
-var CuestionariosApp=(function(jc){"use strict";function md(E){return E&&E.__esModule&&Object.prototype.hasOwnProperty.call(E,"default")?E.default:E}var qc={exports:{}},bl={};/**
+var TestManiaApp=(function(jc){"use strict";function md(E){return E&&E.__esModule&&Object.prototype.hasOwnProperty.call(E,"default")?E.default:E}var qc={exports:{}},bl={};/**
  * @license React
  * react-jsx-runtime.production.js
  *

@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-	<title>TestMania</title>
-	<link rel="icon" href="./favicon.png" type="image/png" />
+    <title>TestMania</title>
+    <link rel="icon" href="./favicon.png" type="image/png" />
     <link rel="stylesheet" href="./app.css" />
 </head>
 
@@ -14,11 +14,11 @@
     <script src="./app.iife.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', () => {
-            if (!window.CuestionariosApp) {
-                console.error('CuestionariosApp no está definido');
+            if (!window.TestManiaApp) {
+                console.error('TestManiaApp no está definido');
                 return;
             }
-            window.CuestionariosApp.mount('#root');
+            window.TestManiaApp.mount('#root');
         });
     </script>
 </body>
