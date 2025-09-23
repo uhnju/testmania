@@ -1,0 +1,222 @@
+/* ===== Base y variables (reutiliza las de tu app si ya están) ===== */
+:root{
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --primary: #4b7fce;
+  --primary-600:#0284c7;
+  --primary-50:#f0f9ff;
+  --border:#e5e7eb;
+  --muted:#374151;
+  --ok:#10b981;
+  --bg-soft:#f7f7f7;
+}
+
+body{
+  font-family: var(--font);
+  color:#111827; /* slate-900 */
+  background:#fff;
+  margin:0;
+}
+
+header, footer{
+  max-width:1000px;
+  margin:0 auto;
+  padding:12px 12px;
+}
+
+header h1{
+  margin:8px 0 0;
+  font-size:1.6rem;
+  color: var(--primary);
+  letter-spacing:.3px;
+}
+
+header a, footer a{
+  color: var(--primary);
+  text-decoration:none;
+  font-weight:600;
+}
+header a, footer a:hover{ text-decoration:underline; }
+
+/* ===== Layout principal ===== */
+.help-layout{
+  max-width:1000px;
+  margin:0 auto;
+  padding:8px 12px 24px;
+  display:grid;
+  grid-template-columns: 260px 1fr;
+  gap:16px;
+}
+
+@media (max-width: 860px){
+  .help-layout{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Índice lateral ===== */
+.help-aside nav{
+  position: sticky;
+  top:12px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:#fafafa;
+  padding:12px;
+}
+
+.help-aside h2{
+  margin:4px 0 8px;
+  font-size:1rem;
+  color:#475569; /* slate-600 */
+}
+.help-aside ol{
+  margin:0;
+  padding-left:18px;
+}
+.help-aside a{
+  color:#1e293b; /* slate-800 */
+  text-decoration:none;
+}
+.help-aside a:hover{
+  color: var(--primary-600);
+  text-decoration:underline;
+}
+
+/* ===== Contenido ===== */
+.help-article{
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:#fff;
+  padding:16px;
+}
+
+.help-article section + section{
+  margin-top:22px;
+  padding-top:10px;
+  border-top:1px dashed #e5e7eb;
+}
+
+.help-article h2{
+  color: var(--primary);
+  font-size:1.35rem;
+  margin:0 0 8px;
+  border-bottom:1px solid var(--primary);
+  padding-bottom:6px;
+}
+.help-article h3{
+  color:#0ea5e9; /* similar a hero strong */
+  font-size:1.15rem;
+  margin:12px 0 6px;
+}
+.help-article h4{
+  color:#334155; /* slate-700 */
+  margin:10px 0 6px;
+  font-size:1.05rem;
+}
+
+.help-article p{
+  line-height:1.55;
+  margin:8px 0;
+  color:#1f2937; /* slate-800 */
+}
+
+.help-article ol, .help-article ul{
+  padding-left:22px;
+  margin:8px 0;
+}
+.help-article li{ margin:6px 0; }
+
+/* Enlaces dentro del contenido */
+.help-article a{
+  color:#2563eb;
+  text-decoration:underline;
+}
+.help-article a:hover{
+  color:#1d4ed8;
+}
+
+/* Bloque de ejemplo / código (similar a tu .question pre) */
+.help-article pre{
+  background:#fdffde;
+  border:1px solid #000;
+  padding:8px;
+  max-width:100%;
+  overflow:auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size:.95rem;
+  border-radius:6px;
+}
+
+/* details/summary */
+.help-article details{
+  border:1px solid var(--border);
+  border-radius:8px;
+  background:#fafafa;
+  padding:8px 10px;
+  margin:10px 0;
+}
+.help-article summary{
+  cursor:pointer;
+  font-weight:600;
+  color:#0f172a; /* slate-900 */
+}
+.help-article details[open]{
+  background:#f8fafc;
+}
+
+/* Nota / aviso */
+.help-article aside[role="note"]{
+  border:1px solid var(--border);
+  border-left:4px solid var(--primary);
+  background:#f9fafb;
+  border-radius:8px;
+  padding:10px 12px;
+  color:#334155;
+  margin:12px 0;
+}
+
+/* Footer */
+footer{
+  color:#6b7280; /* slate-500 */
+  font-size:.95rem;
+  text-align:center;
+  border-top:1px solid var(--border);
+}
+
+/* ===== Modo oscuro ===== */
+@media (prefers-color-scheme: dark){
+  body{ background:#0b1220; color:#e2e8f0; }
+  header a{ color:#93c5fd; }
+  .help-aside nav{
+    background:#0b1220;
+    border-color:#1f2a37;
+  }
+  .help-aside h2{ color:#9ca3af; }
+  .help-aside a{ color:#cbd5e1; }
+  .help-aside a:hover{ color:#93c5fd; }
+
+  .help-article{
+    background:#0b1220;
+    border-color:#1f2a37;
+  }
+  .help-article h2{ border-bottom-color:#1f2a37; }
+  .help-article h3{ color:#7dd3fc; }
+  .help-article h4{ color:#cbd5e1; }
+  .help-article p{ color:#e2e8f0; }
+  .help-article pre{
+    background:#111827;
+    border-color:#374151;
+    color:#e5e7eb;
+  }
+  .help-article details{
+    background:#0b1220;
+    border-color:#1f2a37;
+  }
+  .help-article details[open]{ background:#0f172a; }
+  .help-article aside[role="note"]{
+    background:#0b1220;
+    border-color:#1f2a37;
+    color:#e5e7eb;
+  }
+
+  footer{ border-top-color:#1f2a37; color:#94a3b8; }
+}

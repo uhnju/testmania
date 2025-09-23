@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guía de uso · TestMania</title>
+  <meta name="description" content="Guía de uso de TestMania: exportar e importar tests, dónde se guardan, preguntas frecuentes." />
+  <link rel="stylesheet" href="./ayuda.css" />
+</head>
+<body>
+  <header>
+    <a href="./" aria-label="Volver a TestMania">← Volver</a>
+    <h1>Guía de uso de TestMania</h1>
+  </header>
+
+  <main class="help-layout">
+    <!-- Navegación/Índice -->
+    <aside class="help-aside" aria-label="Índice de contenidos">
+      <nav>
+        <h2>Contenido</h2>
+        <ol>
+          <li><a href="#que-es">¿Qué es TestMania?</a></li>
+          <li><a href="#donde-se-guardan">¿Dónde se guardan mis tests?</a></li>
+          <li><a href="#exportar-importar">Exportar e importar tests</a></li>
+          <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
+          <li><a href="#privacidad">Privacidad</a></li>
+        </ol>
+      </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <article class="help-article">
+      <section id="que-es" aria-labelledby="h-que-es">
+        <h2 id="h-que-es">¿Qué es TestMania?</h2>
+        <p>TestMania te permite crear y resolver tests sobre cualquier tema de forma sencilla.</p>
+      </section>
+
+      <section id="donde-se-guardan" aria-labelledby="h-donde-se-guardan">
+        <h2 id="h-donde-se-guardan">¿Dónde se guardan mis tests?</h2>
+        <p>
+          Tus tests se guardan <strong>únicamente en tu navegador</strong> usando almacenamiento local
+          (localStorage). Si borras los datos del navegador o cambias de dispositivo, tus tests personalizados
+          no estarán disponibles automáticamente.
+        </p>
+      </section>
+
+      <section id="exportar-importar" aria-labelledby="h-exportar-importar">
+        <h2 id="h-exportar-importar">Exportar e importar tests</h2>
+
+        <h3>Exportar e importar tests</h3>
+        <p>Puedes exportar tus tests en formato JSON con el icono 💾 en la tabla.</p>
+        <p>Luego podrás importarlos de nuevo copiando ese JSON en el formulario de creación.</p>
+
+        <h4>Exportar un test</h4>
+        <ol>
+          <li>Abre la página principal y localiza tu test en la tabla.</li>
+          <li>Pulsa el botón <strong>💾</strong> (Descargar JSON) en la fila del test.</li>
+          <li>Se descargará un archivo <code>.json</code> con todas las preguntas y respuestas.</li>
+        </ol>
+
+        <h4>Importar (crear desde un JSON)</h4>
+        <ol>
+          <li>Ve a la sección <strong>Crea un nuevo test con IA</strong> (o creación manual).</li>
+          <li>Pega el contenido del JSON en el cuadro <strong>“Código del test (JSON)”</strong>.</li>
+          <li>Pulsa <strong>Crear Test</strong> para añadirlo a tu lista.</li>
+        </ol>
+
+        <details>
+          <summary>Formato esperado del JSON (ver ejemplo)</summary>
+          <pre><code>{
+  "titulo": "Cultura general",
+  "preguntas": [
+    { "texto": "¿Capital de Francia?", "opciones": ["Madrid","Roma","Lisboa","París"], "correcta": 4 },
+    { "texto": "¿Autor de Don Quijote?", "opciones": ["Cervantes","Lope","Quevedo","Góngora"], "correcta": 1 }
+  ]
+}</code></pre>
+        </details>
+
+      </section>
+
+      <section id="preguntas-frecuentes" aria-labelledby="h-faq">
+        <h2 id="h-faq">Preguntas frecuentes</h2>
+
+        <details>
+          <summary>¿Puedo crear un test sin usar JSON?</summary>
+          <p>De momento la creación es mediante JSON. Estamos valorando otras opciones.</p>
+        </details>
+
+        <details>
+          <summary>¿Qué pasa si ya existe un test con el mismo título?</summary>
+          <p>La aplicación puede renombrarlo automáticamente (p. ej., “Mi test (2)”) para evitar duplicados.</p>
+        </details>
+
+        <details>
+          <summary>¿Se comparten mis tests con otras personas?</summary>
+          <p>No. Los tests son privados y viven en tu navegador, a menos que exportes y compartas el JSON.</p>
+        </details>
+      </section>
+
+      <section id="privacidad" aria-labelledby="h-privacidad">
+        <h2 id="h-privacidad">Privacidad</h2>
+        <p>
+          TestMania no sube tus tests a ningún servidor. Toda la información se mantiene localmente
+          salvo que decidas exportarla o compartirla manualmente.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p><a href="./">Volver a TestMania</a> · © <span id="year">2025</span></p>
+    <script>
+      // Rellena el año automáticamente (opcional)
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
