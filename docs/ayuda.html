@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Guía de uso · TestMania</title>
-  <meta name="description" content="Guía de uso de TestMania: exportar e importar tests, dónde se guardan, preguntas frecuentes." />
+  <meta name="description" content="Guía de uso de TestMania: crear tests con IA, exportar a PDF/JSON, acciones de la tabla, dónde se guardan tus datos y preguntas frecuentes." />
   <link rel="stylesheet" href="./ayuda.css" />
 </head>
 <body>
@@ -20,10 +20,14 @@
         <h2>Contenido</h2>
         <ol>
           <li><a href="#que-es">¿Qué es TestMania?</a></li>
+          <li><a href="#crear-con-ia">Crear un test con IA</a></li>
+          <li><a href="#formato-json">Formato del JSON</a></li>
+          <li><a href="#tabla-y-acciones">Tabla de tests y acciones</a></li>
+          <li><a href="#exportar-pdf">Exportar a PDF</a></li>
           <li><a href="#donde-se-guardan">¿Dónde se guardan mis tests?</a></li>
-          <li><a href="#exportar-importar">Exportar e importar tests</a></li>
           <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
           <li><a href="#privacidad">Privacidad</a></li>
+          <li><a href="#problemas-comunes">Problemas comunes</a></li>
         </ol>
       </nav>
     </aside>
@@ -32,50 +36,74 @@
     <article class="help-article">
       <section id="que-es" aria-labelledby="h-que-es">
         <h2 id="h-que-es">¿Qué es TestMania?</h2>
-        <p>TestMania te permite crear y resolver tests sobre cualquier tema de forma sencilla.</p>
+        <p>TestMania te permite <strong>crear y resolver tests</strong> sobre cualquier tema de forma muy sencilla. Puedes generar preguntas con tu IA favorita y tener tus pruebas organizadas en una tabla con progreso, tiempo y acciones rápidas.</p>
       </section>
 
-      <section id="donde-se-guardan" aria-labelledby="h-donde-se-guardan">
-        <h2 id="h-donde-se-guardan">¿Dónde se guardan mis tests?</h2>
-        <p>
-          Tus tests se guardan <strong>únicamente en tu navegador</strong> usando almacenamiento local
-          (localStorage). Si borras los datos del navegador o cambias de dispositivo, tus tests personalizados
-          no estarán disponibles automáticamente.
-        </p>
+      <section id="crear-con-ia" aria-labelledby="h-crear-ia">
+        <h2 id="h-crear-ia">Crear un test con IA</h2>
+
+        <ol>
+          <li>En la sección <strong>Crea tu test</strong>, escribe la <u>temática</u> del test y elige cuántas preguntas quieres.</li>
+          <li>Selecciona una <u>plataforma de IA</u> en el desplegable: ChatGPT, DeepSeek, Copilot, Gemini, Grok, Perplexity, Mistral o Claude.</li>
+          <li>Pulsa <strong>Abrir IA</strong>. Se abrirá la plataforma elegida en una nueva pestaña y el <em>prompt</em> necesario se <strong>copiará automáticamente</strong> al portapapeles.</li>
+          <li>Pega (<kbd>Ctrl</kbd>+<kbd>V</kbd>) ese texto en la IA y espera la respuesta.</li>
+          <li>Copia todo el <strong>código JSON</strong> que te devuelva la IA y pégalo en el cuadro <em>«Código del test (JSON)»</em>.</li>
+          <li>Pulsa <strong>Crear Test</strong>. Si ya existe un test con el mismo título, se renombrará automáticamente (por ejemplo, <em>«Mi test (2)»</em>).</li>
+        </ol>
+
+        <aside role="note">
+          Consejo: la temática puede ser general o muy específica (ej.: capitales de África, discos de los Beatles, reglamento de fútbol…).
+        </aside>
       </section>
 
-      <section id="exportar-importar" aria-labelledby="h-exportar-importar">
-        <h2 id="h-exportar-importar">Exportar e importar tests</h2>
-
-        <h3>Exportar e importar tests</h3>
-        <p>Puedes exportar tus tests en formato JSON con el icono 💾 en la tabla.</p>
-        <p>Luego podrás importarlos de nuevo copiando ese JSON en el formulario de creación.</p>
-
-        <h4>Exportar un test</h4>
-        <ol>
-          <li>Abre la página principal y localiza tu test en la tabla.</li>
-          <li>Pulsa el botón <strong>💾</strong> (Descargar JSON) en la fila del test.</li>
-          <li>Se descargará un archivo <code>.json</code> con todas las preguntas y respuestas.</li>
-        </ol>
-
-        <h4>Importar (crear desde un JSON)</h4>
-        <ol>
-          <li>Ve a la sección <strong>Crea un nuevo test con IA</strong> (o creación manual).</li>
-          <li>Pega el contenido del JSON en el cuadro <strong>“Código del test (JSON)”</strong>.</li>
-          <li>Pulsa <strong>Crear Test</strong> para añadirlo a tu lista.</li>
-        </ol>
-
-        <details>
-          <summary>Formato esperado del JSON (ver ejemplo)</summary>
-          <pre><code>{
+      <section id="formato-json" aria-labelledby="h-formato-json">
+        <h2 id="h-formato-json">Formato del JSON</h2>
+        <p>El JSON debe tener este esquema básico:</p>
+        <pre><code>{
   "titulo": "Cultura general",
   "preguntas": [
     { "texto": "¿Capital de Francia?", "opciones": ["Madrid","Roma","Lisboa","París"], "correcta": 4 },
     { "texto": "¿Autor de Don Quijote?", "opciones": ["Cervantes","Lope","Quevedo","Góngora"], "correcta": 1 }
   ]
 }</code></pre>
-        </details>
+        <ul>
+          <li><code>correcta</code> indica la <strong>posición</strong> (1, 2, 3 o 4) de la respuesta válida.</li>
+          <li>Debe haber exactamente <strong>4 opciones</strong> por pregunta.</li>
+          <li>El título puede ajustarse automáticamente si hay duplicados.</li>
+        </ul>
+      </section>
 
+      <section id="tabla-y-acciones" aria-labelledby="h-tabla">
+        <h2 id="h-tabla">Tabla de tests y acciones</h2>
+        <p>En la tabla principal verás cada test con sus aciertos, progreso, tiempo invertido y un <strong>desplegable de acciones</strong> por fila. Las acciones disponibles son:</p>
+        <ul>
+          <li><strong>Exportar Test a PDF</strong> — genera un PDF listo para imprimir.</li>
+          <li><strong>Descargar JSON del Test</strong> — guarda el test en un archivo <code>.json</code>.</li>
+          <li><strong>Copiar JSON del Test</strong> — copia el JSON al portapapeles.</li>
+          <li><strong>Reiniciar Test</strong> — borra tus respuestas y el tiempo de ese test (solo localmente).</li>
+          <li><strong>Eliminar Test</strong> — solo aparece para tests personalizados (los de ejemplo no se pueden borrar).</li>
+        </ul>
+      </section>
+
+      <section id="exportar-pdf" aria-labelledby="h-exportar-pdf">
+        <h2 id="h-exportar-pdf">Exportar a PDF</h2>
+        <p>La exportación a PDF crea un documento con:</p>
+        <ul>
+          <li><strong>Título</strong> del test.</li>
+          <li>Cada <strong>pregunta</strong> y sus 4 opciones, con salto de línea automático para textos largos.</li>
+          <li>Marca de agua <em>TestMania.es</em> en cada página.</li>
+          <li>Una <strong>sección final de respuestas correctas</strong> (número, letra y texto de la opción).</li>
+        </ul>
+        <p>El archivo se descarga con el nombre del test y extensión <code>.pdf</code>.</p>
+      </section>
+
+      <section id="donde-se-guardan" aria-labelledby="h-donde-se-guardan">
+        <h2 id="h-donde-se-guardan">¿Dónde se guardan mis tests?</h2>
+        <p>
+          Tus tests personalizados se guardan <strong>únicamente en tu navegador</strong> usando almacenamiento local (<em>localStorage</em>).
+          Si borras los datos del navegador, usas otro navegador o cambias de dispositivo, <strong>no aparecerán</strong> automáticamente.
+          Exporta a JSON para hacer copias de seguridad y poder importarlos más tarde.
+        </p>
       </section>
 
       <section id="preguntas-frecuentes" aria-labelledby="h-faq">
@@ -83,26 +111,36 @@
 
         <details>
           <summary>¿Puedo crear un test sin usar JSON?</summary>
-          <p>De momento la creación es mediante JSON. Estamos valorando otras opciones.</p>
+          <p>De momento la creación es mediante JSON generado (o escrito) por ti. Estamos valorando añadir asistentes más visuales.</p>
         </details>
 
         <details>
           <summary>¿Qué pasa si ya existe un test con el mismo título?</summary>
-          <p>La aplicación puede renombrarlo automáticamente (p. ej., “Mi test (2)”) para evitar duplicados.</p>
+          <p>La app lo renombrará automáticamente (p. ej., <em>«Mi test (2)»</em>) para evitar duplicados.</p>
+        </details>
+
+        <details>
+          <summary>¿Cómo importo un test que exporté antes?</summary>
+          <p>Abre la sección <strong>Crea tu test</strong>, pega el contenido del archivo <code>.json</code> en el cuadro de texto y pulsa <strong>Crear Test</strong>.</p>
         </details>
 
         <details>
           <summary>¿Se comparten mis tests con otras personas?</summary>
-          <p>No. Los tests son privados y viven en tu navegador, a menos que exportes y compartas el JSON.</p>
+          <p>No. Tus tests viven en tu navegador, a menos que exportes y compartas el JSON.</p>
         </details>
       </section>
 
       <section id="privacidad" aria-labelledby="h-privacidad">
         <h2 id="h-privacidad">Privacidad</h2>
-        <p>
-          TestMania no sube tus tests a ningún servidor. Toda la información se mantiene localmente
-          salvo que decidas exportarla o compartirla manualmente.
-        </p>
+        <p>TestMania no sube tus tests a ningún servidor. Toda la información se mantiene localmente salvo que decidas exportarla o compartirla manualmente.</p>
+      </section>
+
+      <section id="problemas-comunes" aria-labelledby="h-problemas">
+        <h2 id="h-problemas">Problemas comunes</h2>
+        <details>
+          <summary>«Formato de JSON no válido» al crear un test</summary>
+          <p>Revisa que el JSON esté completo y bien formado: comas, llaves y corchetes en su sitio; 4 opciones por pregunta; y <code>correcta</code> entre 1 y 4.</p>
+        </details>
       </section>
     </article>
   </main>
@@ -110,7 +148,6 @@
   <footer>
     <p><a href="./">Volver a TestMania</a> · © <span id="year">2025</span></p>
     <script>
-      // Rellena el año automáticamente (opcional)
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </footer>
