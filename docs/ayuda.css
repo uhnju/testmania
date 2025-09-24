@@ -1,8 +1,7 @@
 /* ===== Base y variables (reutiliza las de tu app si ya están) ===== */
 :root{
   --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  /* --primary: #4b7fce; */
-  --primary: #275bb9;
+  --primary: #4b7fce;
   --primary-600:#0284c7;
   --primary-50:#f0f9ff;
   --border:#e5e7eb;
