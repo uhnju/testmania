@@ -1,0 +1,505 @@
+{
+  "titulo": "Psicotécnicos",
+  "preguntas": [
+    {
+      "texto": "Si un tren recorre 120 km en 2 horas, ¿cuál es su velocidad media?",
+      "opciones": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "80 km/h"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Completa la serie: 2, 4, 8, 16, ...",
+      "opciones": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si 5x = 20, ¿cuánto vale x?",
+      "opciones": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "En un grupo de 40 personas, 18 son mujeres. ¿Qué porcentaje representan?",
+      "opciones": [
+        "40%",
+        "45%",
+        "50%",
+        "55%"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si A es mayor que B y B es mayor que C, entonces:",
+      "opciones": [
+        "A > C",
+        "B > A",
+        "C > A",
+        "C = A"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Completa la analogía: Ojo es a ver como oído es a ...",
+      "opciones": [
+        "tocar",
+        "oír",
+        "oler",
+        "sentir"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Un cuadrado tiene un perímetro de 36 cm. ¿Cuánto mide cada lado?",
+      "opciones": [
+        "6 cm",
+        "8 cm",
+        "9 cm",
+        "12 cm"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si hoy es martes, ¿qué día será dentro de 100 días?",
+      "opciones": [
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Completa la serie: 5, 10, 20, 40, ...",
+      "opciones": [
+        "45",
+        "60",
+        "70",
+        "80"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "Un coche gasta 8 litros cada 100 km. ¿Cuánto gastará en 250 km?",
+      "opciones": [
+        "15 L",
+        "18 L",
+        "20 L",
+        "25 L"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si un reloj marca las 3 en punto, ¿qué ángulo forman las agujas?",
+      "opciones": [
+        "45°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "En una clase hay 12 chicos y 8 chicas. ¿Qué fracción son chicos?",
+      "opciones": [
+        "3/5",
+        "2/5",
+        "5/12",
+        "3/4"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Completa la serie: 1, 4, 9, 16, ...",
+      "opciones": [
+        "20",
+        "24",
+        "25",
+        "36"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si Pedro tiene 3 años más que Ana y Ana tiene 15, ¿qué edad tiene Pedro?",
+      "opciones": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "En un examen de 50 preguntas, un alumno acierta 40. ¿Qué porcentaje acierta?",
+      "opciones": [
+        "70%",
+        "75%",
+        "80%",
+        "85%"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si 2x + 3 = 11, ¿cuánto vale x?",
+      "opciones": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Completa la serie: Lunes, Miércoles, Viernes, ...",
+      "opciones": [
+        "Domingo",
+        "Sábado",
+        "Lunes",
+        "Martes"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Si 7×8 = 56, entonces 56 ÷ 7 =",
+      "opciones": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Un triángulo equilátero tiene lados de 6 cm. ¿Cuál es su perímetro?",
+      "opciones": [
+        "12 cm",
+        "16 cm",
+        "18 cm",
+        "20 cm"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si un ángulo mide 90°, se llama:",
+      "opciones": [
+        "Agudo",
+        "Recto",
+        "Obtuso",
+        "Llano"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Completa la analogía: Libro es a leer como cuchara es a ...",
+      "opciones": [
+        "beber",
+        "comer",
+        "cortar",
+        "cocinar"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Un número multiplicado por 0 siempre es:",
+      "opciones": [
+        "El mismo número",
+        "1",
+        "0",
+        "Infinito"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Completa la serie: 100, 90, 80, 70, ...",
+      "opciones": [
+        "50",
+        "60",
+        "65",
+        "55"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si un tren viaja a 100 km/h, ¿cuánto recorre en 3 horas?",
+      "opciones": [
+        "200 km",
+        "250 km",
+        "300 km",
+        "350 km"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Cuál es el número primo más pequeño?",
+      "opciones": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "En un dado, ¿cuál es la suma de las caras opuestas?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si 9 + x = 15, ¿cuánto vale x?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Un polígono de 6 lados se llama:",
+      "opciones": [
+        "Pentágono",
+        "Hexágono",
+        "Octógono",
+        "Heptágono"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si una pizza se divide en 8 partes y comes 3, ¿qué fracción queda?",
+      "opciones": [
+        "5/8",
+        "3/8",
+        "1/2",
+        "2/5"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Completa la serie: 3, 6, 12, 24, ...",
+      "opciones": [
+        "36",
+        "48",
+        "50",
+        "60"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si 12 manzanas cuestan 6 €, ¿cuánto cuestan 4 manzanas?",
+      "opciones": [
+        "1 €",
+        "2 €",
+        "3 €",
+        "4 €"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Un ángulo mayor de 90° y menor de 180° se llama:",
+      "opciones": [
+        "Agudo",
+        "Recto",
+        "Obtuso",
+        "Llano"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si 4x = 28, ¿cuánto vale x?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "En un grupo de 5 personas, cada una da la mano a las demás. ¿Cuántos apretones hay?",
+      "opciones": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Completa la serie: 2, 3, 5, 7, 11, ...",
+      "opciones": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si un cuadrado tiene área de 49 cm², ¿cuánto mide su lado?",
+      "opciones": [
+        "6 cm",
+        "7 cm",
+        "8 cm",
+        "9 cm"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Un coche viaja 240 km en 4 horas. ¿Cuál es su velocidad media?",
+      "opciones": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "80 km/h"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "Completa la serie: 1, 2, 4, 7, 11, ...",
+      "opciones": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si 3x + 2 = 11, ¿cuánto vale x?",
+      "opciones": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "En una clase de 30 alumnos, 12 son varones. ¿Qué porcentaje son mujeres?",
+      "opciones": [
+        "40%",
+        "50%",
+        "60%",
+        "70%"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Un círculo tiene radio 7 cm. ¿Cuál es su diámetro?",
+      "opciones": [
+        "7 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "Completa la analogía: Pájaro es a volar como pez es a ...",
+      "opciones": [
+        "nadar",
+        "respirar",
+        "saltar",
+        "caminar"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Si hoy es jueves, ¿qué día fue hace 10 días?",
+      "opciones": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Domingo"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Si 15 ÷ 3 = x, entonces x =",
+      "opciones": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Un rectángulo mide 5 cm de base y 8 cm de altura. ¿Cuál es su área?",
+      "opciones": [
+        "30 cm²",
+        "35 cm²",
+        "40 cm²",
+        "45 cm²"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Completa la serie: 81, 64, 49, 36, ...",
+      "opciones": [
+        "25",
+        "30",
+        "32",
+        "28"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Si un avión viaja a 600 km/h, ¿cuánto recorrerá en 3 horas?",
+      "opciones": [
+        "1500 km",
+        "1600 km",
+        "1700 km",
+        "1800 km"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "En un examen de 20 preguntas, un alumno responde bien 15. ¿Qué fracción acierta?",
+      "opciones": [
+        "3/4",
+        "2/3",
+        "4/5",
+        "5/6"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Si 6x = 42, ¿cuánto vale x?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Completa la serie: 10, 20, 40, 80, ...",
+      "opciones": [
+        "100",
+        "120",
+        "150",
+        "160"
+      ],
+      "correcta": 4
+    }
+  ]
+}

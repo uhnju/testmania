@@ -1,0 +1,505 @@
+{
+  "titulo": "Deporte",
+  "preguntas": [
+    {
+      "texto": "¿En qué país se originó el fútbol moderno?",
+      "opciones": [
+        "Francia",
+        "Alemania",
+        "Reino Unido",
+        "Italia"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién ganó más títulos de Roland Garros en tenis?",
+      "opciones": [
+        "Roger Federer",
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Björn Borg"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué ciudad se celebraron los Juegos Olímpicos de 2008?",
+      "opciones": [
+        "Sídney",
+        "Atenas",
+        "Pekín",
+        "Londres"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué selección ganó el Mundial de Fútbol 2014?",
+      "opciones": [
+        "Brasil",
+        "Alemania",
+        "Argentina",
+        "España"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué deporte se destaca Michael Jordan?",
+      "opciones": [
+        "Béisbol",
+        "Fútbol americano",
+        "Baloncesto",
+        "Atletismo"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué selección ganó el primer Mundial de Fútbol en 1930?",
+      "opciones": [
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Italia"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién tiene más medallas olímpicas de la historia?",
+      "opciones": [
+        "Usain Bolt",
+        "Michael Phelps",
+        "Larisa Latynina",
+        "Carl Lewis"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué deporte se utiliza un disco llamado 'puck'?",
+      "opciones": [
+        "Hockey sobre césped",
+        "Hockey sobre hielo",
+        "Lacrosse",
+        "Rugby"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué país ganó el Mundial de Fútbol 2022?",
+      "opciones": [
+        "Francia",
+        "Brasil",
+        "Argentina",
+        "Alemania"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué boxeador fue apodado 'The Greatest'?",
+      "opciones": [
+        "Mike Tyson",
+        "Muhammad Ali",
+        "Joe Frazier",
+        "George Foreman"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién fue el máximo goleador del Mundial 2002?",
+      "opciones": [
+        "Ronaldo Nazário",
+        "Miroslav Klose",
+        "Raúl",
+        "Ronaldinho"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿En qué deporte destacó Pelé?",
+      "opciones": [
+        "Baloncesto",
+        "Tenis",
+        "Fútbol",
+        "Atletismo"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿En qué ciudad se celebraron los Juegos Olímpicos de 1992?",
+      "opciones": [
+        "Los Ángeles",
+        "Seúl",
+        "Barcelona",
+        "Atlanta"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién ganó el Balón de Oro en 2021?",
+      "opciones": [
+        "Cristiano Ronaldo",
+        "Messi",
+        "Lewandowski",
+        "Modric"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué tenista femenino ganó 23 títulos de Grand Slam?",
+      "opciones": [
+        "Steffi Graf",
+        "Serena Williams",
+        "Martina Navratilova",
+        "Margaret Court"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué piloto de Fórmula 1 tiene más campeonatos mundiales?",
+      "opciones": [
+        "Ayrton Senna",
+        "Lewis Hamilton",
+        "Michael Schumacher",
+        "Alain Prost"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué deporte compitió Usain Bolt?",
+      "opciones": [
+        "Natación",
+        "Atletismo",
+        "Ciclismo",
+        "Gimnasia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué selección ganó la Copa América 2021?",
+      "opciones": [
+        "Brasil",
+        "Argentina",
+        "Chile",
+        "Uruguay"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién ganó el Mundial de Rugby 2019?",
+      "opciones": [
+        "Nueva Zelanda",
+        "Sudáfrica",
+        "Inglaterra",
+        "Australia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+      "opciones": [
+        "1896",
+        "1900",
+        "1924",
+        "1936"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué selección ganó el Mundial de 2010?",
+      "opciones": [
+        "España",
+        "Países Bajos",
+        "Alemania",
+        "Brasil"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién ganó el Tour de Francia cinco veces consecutivas?",
+      "opciones": [
+        "Lance Armstrong",
+        "Chris Froome",
+        "Eddy Merckx",
+        "Miguel Induráin"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "¿En qué deporte se destaca Novak Djokovic?",
+      "opciones": [
+        "Bádminton",
+        "Tenis",
+        "Squash",
+        "Baloncesto"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué selección ganó el Mundial de 1998?",
+      "opciones": [
+        "Brasil",
+        "Francia",
+        "Italia",
+        "Alemania"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué equipo ha ganado más Champions League?",
+      "opciones": [
+        "Barcelona",
+        "Real Madrid",
+        "AC Milan",
+        "Bayern Múnich"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién fue apodado 'El hombre de acero' en el boxeo?",
+      "opciones": [
+        "Rocky Marciano",
+        "Mike Tyson",
+        "Joe Louis",
+        "Evander Holyfield"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué selección ha ganado más Copas América?",
+      "opciones": [
+        "Argentina",
+        "Brasil",
+        "Uruguay",
+        "Chile"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿En qué país se originó el judo?",
+      "opciones": [
+        "China",
+        "Japón",
+        "Corea",
+        "Tailandia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién ganó el Mundial de Fútbol 1986?",
+      "opciones": [
+        "Brasil",
+        "Alemania",
+        "Argentina",
+        "Italia"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué nadador ganó ocho oros en Pekín 2008?",
+      "opciones": [
+        "Ryan Lochte",
+        "Ian Thorpe",
+        "Michael Phelps",
+        "Mark Spitz"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién fue el máximo goleador del Mundial 2018?",
+      "opciones": [
+        "Harry Kane",
+        "Mbappé",
+        "Griezmann",
+        "Cristiano Ronaldo"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué selección ganó el Mundial femenino 2019?",
+      "opciones": [
+        "Estados Unidos",
+        "Países Bajos",
+        "Suecia",
+        "Alemania"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿En qué país se celebraron los Juegos Olímpicos de 2016?",
+      "opciones": [
+        "China",
+        "Brasil",
+        "Japón",
+        "Reino Unido"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién fue campeón mundial de ajedrez entre 1985 y 2000?",
+      "opciones": [
+        "Bobby Fischer",
+        "Anatoli Karpov",
+        "Garry Kasparov",
+        "Vladimir Kramnik"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué club de fútbol ganó la primera Copa de Europa en 1956?",
+      "opciones": [
+        "Real Madrid",
+        "Milan",
+        "Benfica",
+        "Barcelona"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién es considerado el mejor basquetbolista argentino?",
+      "opciones": [
+        "Delfino",
+        "Scola",
+        "Manu Ginóbili",
+        "Oberto"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué país ganó el Mundial de Fútbol 2006?",
+      "opciones": [
+        "Italia",
+        "Francia",
+        "Alemania",
+        "Brasil"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién fue el máximo goleador de la Eurocopa 2004?",
+      "opciones": [
+        "Cristiano Ronaldo",
+        "Thierry Henry",
+        "Milan Baros",
+        "Wayne Rooney"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué tenista fue apodado 'Pistol Pete'?",
+      "opciones": [
+        "Pete Sampras",
+        "Jimmy Connors",
+        "Andre Agassi",
+        "Boris Becker"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué selección ganó el primer Mundial femenino en 1991?",
+      "opciones": [
+        "Noruega",
+        "Estados Unidos",
+        "Alemania",
+        "Suecia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué ciudad nació Diego Maradona?",
+      "opciones": [
+        "Córdoba",
+        "Rosario",
+        "Buenos Aires",
+        "La Plata"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué país ha ganado más medallas olímpicas en total?",
+      "opciones": [
+        "Rusia",
+        "China",
+        "Estados Unidos",
+        "Reino Unido"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué selección ganó la Eurocopa 2008?",
+      "opciones": [
+        "Alemania",
+        "Italia",
+        "España",
+        "Portugal"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién fue apodado 'El rey del fútbol'?",
+      "opciones": [
+        "Pelé",
+        "Maradona",
+        "Messi",
+        "Cristiano Ronaldo"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué ciudad fue sede de los Juegos Olímpicos de 1984?",
+      "opciones": [
+        "Montreal",
+        "Los Ángeles",
+        "Moscú",
+        "Seúl"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué selección ganó la Copa América 2019?",
+      "opciones": [
+        "Brasil",
+        "Argentina",
+        "Chile",
+        "Uruguay"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién ganó el Mundial de Fútbol 1970?",
+      "opciones": [
+        "Alemania",
+        "Brasil",
+        "Argentina",
+        "Italia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué club de fútbol argentino es apodado 'Los Millonarios'?",
+      "opciones": [
+        "River Plate",
+        "Boca Juniors",
+        "San Lorenzo",
+        "Independiente"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién fue campeón mundial de Fórmula 1 en 2021?",
+      "opciones": [
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Sebastian Vettel",
+        "Fernando Alonso"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué país ganó el Mundial de Baloncesto 2019?",
+      "opciones": [
+        "España",
+        "Estados Unidos",
+        "Serbia",
+        "Argentina"
+      ],
+      "correcta": 1
+    }
+  ]
+}

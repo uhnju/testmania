@@ -1,0 +1,505 @@
+{
+  "titulo": "Cine",
+  "preguntas": [
+    {
+      "texto": "¿Quién dirigió 'Titanic' (1997)?",
+      "opciones": [
+        "Steven Spielberg",
+        "James Cameron",
+        "Ridley Scott",
+        "Martin Scorsese"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué película ganó el Óscar a mejor película en 1994?",
+      "opciones": [
+        "Pulp Fiction",
+        "Forrest Gump",
+        "Cadena perpetua",
+        "Cuatro bodas y un funeral"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién interpretó a Jack Sparrow en 'Piratas del Caribe'?",
+      "opciones": [
+        "Orlando Bloom",
+        "Johnny Depp",
+        "Brad Pitt",
+        "Tom Cruise"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué director filmó 'La lista de Schindler'?",
+      "opciones": [
+        "Steven Spielberg",
+        "Roman Polanski",
+        "Oliver Stone",
+        "Ridley Scott"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿En qué año se estrenó 'Star Wars: Una nueva esperanza'?",
+      "opciones": [
+        "1975",
+        "1977",
+        "1980",
+        "1983"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién interpretó a Neo en 'Matrix'?",
+      "opciones": [
+        "Keanu Reeves",
+        "Brad Pitt",
+        "Tom Cruise",
+        "Nicolas Cage"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película fue la más taquillera de la historia hasta 2009?",
+      "opciones": [
+        "Titanic",
+        "Avatar",
+        "Avengers: Endgame",
+        "El Señor de los Anillos"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué actriz protagonizó 'La La Land'?",
+      "opciones": [
+        "Emma Watson",
+        "Jennifer Lawrence",
+        "Emma Stone",
+        "Anne Hathaway"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué película de animación estrenó Pixar en 1995?",
+      "opciones": [
+        "Monstruos S.A.",
+        "Toy Story",
+        "Buscando a Nemo",
+        "Cars"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién dirigió 'El Padrino'?",
+      "opciones": [
+        "Francis Ford Coppola",
+        "Martin Scorsese",
+        "Brian De Palma",
+        "Robert Zemeckis"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué actor interpretó al Joker en 'The Dark Knight'?",
+      "opciones": [
+        "Joaquin Phoenix",
+        "Heath Ledger",
+        "Jared Leto",
+        "Jack Nicholson"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál fue la primera película en ganar el Óscar a mejor película?",
+      "opciones": [
+        "Wings",
+        "Casablanca",
+        "Lo que el viento se llevó",
+        "Ciudadano Kane"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película tiene la frase 'Houston, tenemos un problema'?",
+      "opciones": [
+        "Armageddon",
+        "Apolo 13",
+        "Gravedad",
+        "Interstellar"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién protagonizó 'Gladiador'?",
+      "opciones": [
+        "Russell Crowe",
+        "Mel Gibson",
+        "Hugh Jackman",
+        "Gerard Butler"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película animada introdujo al personaje de Shrek?",
+      "opciones": [
+        "Shrek",
+        "Shrek 2",
+        "El gato con botas",
+        "Shrek Tercero"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué director es conocido como 'el maestro del suspenso'?",
+      "opciones": [
+        "Hitchcock",
+        "Kubrick",
+        "Spielberg",
+        "Coppola"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película de ciencia ficción dirigió Ridley Scott en 1982?",
+      "opciones": [
+        "Alien",
+        "Blade Runner",
+        "2001: Odisea del espacio",
+        "Terminator"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién interpretó a Wolverine en las películas de X-Men?",
+      "opciones": [
+        "Hugh Jackman",
+        "Chris Evans",
+        "Christian Bale",
+        "Tom Hardy"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película ganó el Óscar a mejor película en 2020?",
+      "opciones": [
+        "1917",
+        "Joker",
+        "Parásitos",
+        "Érase una vez en Hollywood"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué actor interpretó a Forrest Gump?",
+      "opciones": [
+        "Kevin Costner",
+        "Tom Hanks",
+        "Matt Damon",
+        "Robin Williams"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué película introdujo al personaje de Darth Vader?",
+      "opciones": [
+        "Star Wars: Una nueva esperanza",
+        "El Imperio contraataca",
+        "El retorno del Jedi",
+        "La amenaza fantasma"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué actriz protagonizó 'Mujer bonita' junto a Richard Gere?",
+      "opciones": [
+        "Meg Ryan",
+        "Julia Roberts",
+        "Sandra Bullock",
+        "Nicole Kidman"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué director filmó '2001: Odisea del espacio'?",
+      "opciones": [
+        "Steven Spielberg",
+        "George Lucas",
+        "Stanley Kubrick",
+        "Francis Ford Coppola"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién interpretó a Hannibal Lecter en 'El silencio de los corderos'?",
+      "opciones": [
+        "Anthony Hopkins",
+        "Jack Nicholson",
+        "Al Pacino",
+        "Robert De Niro"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película de Disney fue la primera animada en largometraje?",
+      "opciones": [
+        "La Cenicienta",
+        "Blancanieves y los siete enanitos",
+        "Pinocho",
+        "Fantasía"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién dirigió 'Inception' (Origen)?",
+      "opciones": [
+        "Christopher Nolan",
+        "Quentin Tarantino",
+        "David Fincher",
+        "James Cameron"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué actor interpretó a Iron Man en el Universo Marvel?",
+      "opciones": [
+        "Chris Evans",
+        "Mark Ruffalo",
+        "Robert Downey Jr.",
+        "Chris Hemsworth"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué película de Tarantino cuenta la historia de Vincent Vega y Jules Winnfield?",
+      "opciones": [
+        "Reservoir Dogs",
+        "Pulp Fiction",
+        "Kill Bill",
+        "Django Unchained"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué película de terror introdujo a Freddy Krueger?",
+      "opciones": [
+        "Halloween",
+        "Viernes 13",
+        "Pesadilla en Elm Street",
+        "Scream"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién protagonizó 'El lobo de Wall Street'?",
+      "opciones": [
+        "Leonardo DiCaprio",
+        "Brad Pitt",
+        "Matt Damon",
+        "Christian Bale"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película ganó el Óscar a mejor película en 1991?",
+      "opciones": [
+        "El silencio de los corderos",
+        "Bailando con lobos",
+        "Bugsy",
+        "La bella y la bestia"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién dirigió 'E.T. el extraterrestre'?",
+      "opciones": [
+        "Steven Spielberg",
+        "George Lucas",
+        "Robert Zemeckis",
+        "Ron Howard"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué actriz interpretó a Katniss Everdeen en 'Los juegos del hambre'?",
+      "opciones": [
+        "Jennifer Lawrence",
+        "Kristen Stewart",
+        "Emma Watson",
+        "Natalie Portman"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película introdujo al personaje de Gollum?",
+      "opciones": [
+        "El Hobbit",
+        "El Señor de los Anillos: La Comunidad del Anillo",
+        "Harry Potter",
+        "Willow"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué película de Pixar cuenta la historia de un robot que limpia la Tierra?",
+      "opciones": [
+        "Wall-E",
+        "Up",
+        "Ratatouille",
+        "Los Increíbles"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién dirigió 'Pulp Fiction'?",
+      "opciones": [
+        "Guy Ritchie",
+        "Quentin Tarantino",
+        "Martin Scorsese",
+        "David Fincher"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué actor protagonizó 'El sexto sentido'?",
+      "opciones": [
+        "Tom Cruise",
+        "Bruce Willis",
+        "Harrison Ford",
+        "Kevin Costner"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué película animada introdujo a Elsa y Anna?",
+      "opciones": [
+        "Frozen",
+        "Enredados",
+        "Valiente",
+        "Moana"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué director filmó 'Taxi Driver'?",
+      "opciones": [
+        "Francis Ford Coppola",
+        "Martin Scorsese",
+        "Sidney Lumet",
+        "Brian De Palma"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién interpretó a Black Panther en Marvel?",
+      "opciones": [
+        "Michael B. Jordan",
+        "Anthony Mackie",
+        "Chadwick Boseman",
+        "Don Cheadle"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué película tiene la frase 'Yo soy tu padre'?",
+      "opciones": [
+        "El Imperio contraataca",
+        "Una nueva esperanza",
+        "El retorno del Jedi",
+        "La venganza de los Sith"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué actriz protagonizó 'Gravity'?",
+      "opciones": [
+        "Sandra Bullock",
+        "Natalie Portman",
+        "Julia Roberts",
+        "Anne Hathaway"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película de terror fue dirigida por William Friedkin en 1973?",
+      "opciones": [
+        "El exorcista",
+        "La profecía",
+        "Carrie",
+        "El resplandor"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién protagonizó 'El pianista'?",
+      "opciones": [
+        "Adrien Brody",
+        "Liam Neeson",
+        "Ralph Fiennes",
+        "Edward Norton"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué película introdujo a Buzz Lightyear?",
+      "opciones": [
+        "Toy Story",
+        "Monstruos S.A.",
+        "Cars",
+        "Los Increíbles"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién dirigió 'La naranja mecánica'?",
+      "opciones": [
+        "Stanley Kubrick",
+        "Francis Ford Coppola",
+        "David Lynch",
+        "Ridley Scott"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué actor interpretó a Jack en 'Titanic'?",
+      "opciones": [
+        "Brad Pitt",
+        "Leonardo DiCaprio",
+        "Tom Cruise",
+        "Matt Damon"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué película ganó el Óscar a mejor película en 2017?",
+      "opciones": [
+        "La La Land",
+        "Moonlight",
+        "Manchester by the Sea",
+        "Arrival"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién dirigió 'El laberinto del fauno'?",
+      "opciones": [
+        "Pedro Almodóvar",
+        "Alejandro Amenábar",
+        "Guillermo del Toro",
+        "Alfonso Cuarón"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué actriz interpretó a Hermione Granger en Harry Potter?",
+      "opciones": [
+        "Emma Stone",
+        "Emma Watson",
+        "Natalie Portman",
+        "Keira Knightley"
+      ],
+      "correcta": 2
+    }
+  ]
+}

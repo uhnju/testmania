@@ -1,0 +1,505 @@
+{
+  "titulo": "Música",
+  "preguntas": [
+    {
+      "texto": "¿Quién es conocido como el 'Rey del Rock'?",
+      "opciones": [
+        "Elvis Presley",
+        "Chuck Berry",
+        "Buddy Holly",
+        "Little Richard"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué banda lanzó el álbum 'Abbey Road'?",
+      "opciones": [
+        "The Rolling Stones",
+        "The Beatles",
+        "The Who",
+        "Pink Floyd"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién compuso la Novena Sinfonía?",
+      "opciones": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Haydn"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué cantante es conocido como el 'Rey del Pop'?",
+      "opciones": [
+        "Prince",
+        "Elton John",
+        "Michael Jackson",
+        "David Bowie"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué grupo lanzó 'Bohemian Rhapsody'?",
+      "opciones": [
+        "Led Zeppelin",
+        "Queen",
+        "The Doors",
+        "U2"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién compuso 'Las cuatro estaciones'?",
+      "opciones": [
+        "Bach",
+        "Vivaldi",
+        "Handel",
+        "Mozart"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué banda creó el álbum 'The Dark Side of the Moon'?",
+      "opciones": [
+        "Pink Floyd",
+        "Genesis",
+        "Yes",
+        "King Crimson"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué cantante británica lanzó el álbum '21'?",
+      "opciones": [
+        "Adele",
+        "Amy Winehouse",
+        "Duffy",
+        "Lily Allen"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué compositor austriaco murió a los 35 años?",
+      "opciones": [
+        "Haydn",
+        "Schubert",
+        "Mozart",
+        "Strauss"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué artista popularizó la canción 'Like a Virgin'?",
+      "opciones": [
+        "Britney Spears",
+        "Madonna",
+        "Lady Gaga",
+        "Cyndi Lauper"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién es el vocalista principal de The Rolling Stones?",
+      "opciones": [
+        "Mick Jagger",
+        "Keith Richards",
+        "Eric Clapton",
+        "Roger Daltrey"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué grupo grabó 'Hotel California'?",
+      "opciones": [
+        "The Eagles",
+        "Fleetwood Mac",
+        "The Beach Boys",
+        "Creedence Clearwater Revival"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién compuso 'El lago de los cisnes'?",
+      "opciones": [
+        "Chaikovski",
+        "Wagner",
+        "Stravinski",
+        "Rimski-Kórsakov"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué cantante fue apodado 'La voz'?",
+      "opciones": [
+        "Frank Sinatra",
+        "Dean Martin",
+        "Bing Crosby",
+        "Tony Bennett"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué grupo lanzó el álbum 'Nevermind'?",
+      "opciones": [
+        "Pearl Jam",
+        "Nirvana",
+        "Soundgarden",
+        "Alice in Chains"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién compuso la ópera 'La flauta mágica'?",
+      "opciones": [
+        "Beethoven",
+        "Mozart",
+        "Rossini",
+        "Verdi"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué banda interpretó 'Stairway to Heaven'?",
+      "opciones": [
+        "Deep Purple",
+        "Led Zeppelin",
+        "Black Sabbath",
+        "The Who"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué artista lanzó el álbum 'Thriller'?",
+      "opciones": [
+        "Prince",
+        "Michael Jackson",
+        "Lionel Richie",
+        "George Michael"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué cantante española es conocida como 'La Faraona'?",
+      "opciones": [
+        "Rocío Jurado",
+        "Isabel Pantoja",
+        "Lola Flores",
+        "Marisol"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué grupo británico grabó 'Wish You Were Here'?",
+      "opciones": [
+        "Pink Floyd",
+        "Genesis",
+        "The Police",
+        "Dire Straits"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién es el compositor de 'Carmina Burana'?",
+      "opciones": [
+        "Carl Orff",
+        "Richard Strauss",
+        "Mahler",
+        "Brahms"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué artista cantó 'Like a Rolling Stone'?",
+      "opciones": [
+        "Bob Dylan",
+        "Bruce Springsteen",
+        "Neil Young",
+        "Johnny Cash"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué banda lanzó el disco 'A Night at the Opera'?",
+      "opciones": [
+        "Queen",
+        "The Beatles",
+        "Genesis",
+        "Yes"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué cantante fue apodada 'La reina del soul'?",
+      "opciones": [
+        "Tina Turner",
+        "Aretha Franklin",
+        "Whitney Houston",
+        "Diana Ross"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién compuso la ópera 'Aida'?",
+      "opciones": [
+        "Rossini",
+        "Puccini",
+        "Verdi",
+        "Donizetti"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué grupo cantó 'Smells Like Teen Spirit'?",
+      "opciones": [
+        "Pearl Jam",
+        "Nirvana",
+        "Soundgarden",
+        "Radiohead"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué artista lanzó la canción 'Rolling in the Deep'?",
+      "opciones": [
+        "Amy Winehouse",
+        "Adele",
+        "Duffy",
+        "Sia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué compositor alemán es conocido por 'El anillo del nibelungo'?",
+      "opciones": [
+        "Brahms",
+        "Wagner",
+        "Beethoven",
+        "Mendelssohn"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué cantante popularizó 'Purple Rain'?",
+      "opciones": [
+        "Prince",
+        "David Bowie",
+        "Stevie Wonder",
+        "George Michael"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué grupo británico lanzó 'The Wall'?",
+      "opciones": [
+        "Genesis",
+        "The Rolling Stones",
+        "Pink Floyd",
+        "The Who"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién compuso 'El Mesías'?",
+      "opciones": [
+        "Handel",
+        "Haydn",
+        "Mozart",
+        "Bach"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué cantante fue apodada 'La reina del pop'?",
+      "opciones": [
+        "Britney Spears",
+        "Lady Gaga",
+        "Madonna",
+        "Kylie Minogue"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué banda grabó 'Another Brick in the Wall'?",
+      "opciones": [
+        "The Who",
+        "Led Zeppelin",
+        "Pink Floyd",
+        "Deep Purple"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién es conocido como 'El rey del blues'?",
+      "opciones": [
+        "B.B. King",
+        "Muddy Waters",
+        "John Lee Hooker",
+        "Robert Johnson"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué grupo creó la canción 'Imagine'?",
+      "opciones": [
+        "The Beatles",
+        "John Lennon",
+        "Queen",
+        "The Doors"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién compuso la ópera 'Turandot'?",
+      "opciones": [
+        "Verdi",
+        "Rossini",
+        "Puccini",
+        "Donizetti"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué cantante lanzó 'Born in the U.S.A.'?",
+      "opciones": [
+        "Bruce Springsteen",
+        "Billy Joel",
+        "Bob Dylan",
+        "Tom Petty"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué grupo británico creó 'Angie'?",
+      "opciones": [
+        "The Rolling Stones",
+        "The Beatles",
+        "The Kinks",
+        "The Clash"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién compuso la 'Pequeña serenata nocturna'?",
+      "opciones": [
+        "Mozart",
+        "Beethoven",
+        "Bach",
+        "Haydn"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué cantante interpretó 'Rehab'?",
+      "opciones": [
+        "Duffy",
+        "Adele",
+        "Amy Winehouse",
+        "Lily Allen"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué banda grabó 'Back in Black'?",
+      "opciones": [
+        "Metallica",
+        "AC/DC",
+        "Aerosmith",
+        "Guns N' Roses"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién compuso 'Claro de luna'?",
+      "opciones": [
+        "Mozart",
+        "Beethoven",
+        "Chopin",
+        "Liszt"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué cantante fue apodado 'El Sol de México'?",
+      "opciones": [
+        "Vicente Fernández",
+        "Luis Miguel",
+        "Juan Gabriel",
+        "José José"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué grupo lanzó 'Wonderwall'?",
+      "opciones": [
+        "Blur",
+        "Oasis",
+        "Radiohead",
+        "Coldplay"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién compuso la 'Sinfonía del Nuevo Mundo'?",
+      "opciones": [
+        "Dvořák",
+        "Brahms",
+        "Mahler",
+        "Tchaikovsky"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué cantante interpretó 'Like a Prayer'?",
+      "opciones": [
+        "Whitney Houston",
+        "Lady Gaga",
+        "Madonna",
+        "Cher"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué grupo grabó 'Californication'?",
+      "opciones": [
+        "Pearl Jam",
+        "Nirvana",
+        "Red Hot Chili Peppers",
+        "Soundgarden"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién compuso la 'Sinfonía n.º 5'?",
+      "opciones": [
+        "Beethoven",
+        "Mozart",
+        "Brahms",
+        "Mahler"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué cantante lanzó 'Shape of You'?",
+      "opciones": [
+        "Ed Sheeran",
+        "Sam Smith",
+        "Shawn Mendes",
+        "Justin Bieber"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué grupo lanzó 'Smoke on the Water'?",
+      "opciones": [
+        "Led Zeppelin",
+        "Deep Purple",
+        "Black Sabbath",
+        "Queen"
+      ],
+      "correcta": 2
+    }
+  ]
+}
