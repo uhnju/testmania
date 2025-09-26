@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "items": [
+    { "id": "Capitales del mundo", "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/tests/capitales.json" },
+    { "id": "Historia de España", "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/tests/historia.json" }
+  ]
+}
