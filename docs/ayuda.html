@@ -1,12 +1,15 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Guía de uso · TestMania</title>
-  <meta name="description" content="Guía de uso de TestMania: crear tests con IA, exportar a PDF/JSON, acciones de la tabla, dónde se guardan tus datos y preguntas frecuentes." />
+  <meta name="description"
+    content="Guía de uso de TestMania: crear tests con IA, exportar a PDF/JSON, acciones de la tabla, cronómetro, progreso, privacidad y preguntas frecuentes." />
   <link rel="stylesheet" href="./ayuda.css" />
 </head>
+
 <body>
   <header>
     <a href="./" aria-label="Volver a TestMania">← Volver</a>
@@ -24,6 +27,7 @@
           <li><a href="#formato-json">Formato del JSON</a></li>
           <li><a href="#tabla-y-acciones">Tabla de tests y acciones</a></li>
           <li><a href="#exportar-pdf">Exportar a PDF</a></li>
+          <li><a href="#interfaz-test">Interfaz durante un test</a></li>
           <li><a href="#donde-se-guardan">¿Dónde se guardan mis tests?</a></li>
           <li><a href="#preguntas-frecuentes">Preguntas frecuentes</a></li>
           <li><a href="#privacidad">Privacidad</a></li>
@@ -36,110 +40,177 @@
     <article class="help-article">
       <section id="que-es" aria-labelledby="h-que-es">
         <h2 id="h-que-es">¿Qué es TestMania?</h2>
-        <p>TestMania te permite <strong>crear y resolver tests</strong> sobre cualquier tema de forma muy sencilla. Puedes generar preguntas con tu IA favorita y tener tus pruebas organizadas en una tabla con progreso, tiempo y acciones rápidas.</p>
+        <p>TestMania te permite <strong>crear y resolver tests</strong> sobre cualquier tema de forma muy sencilla.
+          Puedes generar preguntas con tu IA favorita y tener tus test organizados en una tabla con progreso, tiempo
+          y acciones rápidas.</p>
       </section>
 
       <section id="crear-con-ia" aria-labelledby="h-crear-ia">
         <h2 id="h-crear-ia">Crear un test con IA</h2>
-
         <ol>
-          <li>En la sección <strong>Crea tu test</strong>, escribe la <u>temática</u> del test y elige cuántas preguntas quieres.</li>
-          <li>Selecciona una <u>plataforma de IA</u> en el desplegable: ChatGPT, DeepSeek, Copilot, Gemini, Grok, Perplexity, Mistral o Claude.</li>
-          <li>Pulsa <strong>Abrir IA</strong>. Se abrirá la plataforma elegida en una nueva pestaña y el <em>prompt</em> necesario se <strong>copiará automáticamente</strong> al portapapeles.</li>
+          <li>En la sección <strong>Crea tu test</strong>, escribe la <u>temática</u> y el número de preguntas.</li>
+          <li>Selecciona una <u>plataforma de IA</u> en el desplegable: ChatGPT, DeepSeek, Copilot, Gemini, Grok,
+            Perplexity, Mistral o Claude.</li>
+          <li>Pulsa <strong>Abrir IA</strong>. Se abrirá en una nueva pestaña y el <em>prompt</em> se <strong>copiará
+              automáticamente</strong> al portapapeles.</li>
           <li>Pega (<kbd>Ctrl</kbd>+<kbd>V</kbd>) ese texto en la IA y espera la respuesta.</li>
-          <li>Copia todo el <strong>código JSON</strong> que te devuelva la IA y pégalo en el cuadro <em>«Código del test (JSON)»</em>.</li>
-          <li>Pulsa <strong>Crear Test</strong>. Si ya existe un test con el mismo título, se renombrará automáticamente (por ejemplo, <em>«Mi test (2)»</em>).</li>
+          <li>Copia todo el <strong>código JSON</strong> generado y pégalo en el cuadro <em>«Código del test
+              (JSON)»</em>.</li>
+          <li>Pulsa <strong>Crear Test</strong>. Si el título ya existe, se renombrará automáticamente (ej.: <em>«Mi
+              test (2)»</em>).</li>
         </ol>
-
         <aside role="note">
-          Consejo: la temática puede ser general o muy específica (ej.: capitales de África, discos de los Beatles, reglamento de fútbol…).
+          Consejo: la temática puede ser general o muy específica (ej.: capitales de África, discos de los Beatles,
+          reglamento de fútbol…).
         </aside>
+      </section>
+
+
       </section>
 
       <section id="formato-json" aria-labelledby="h-formato-json">
         <h2 id="h-formato-json">Formato del JSON</h2>
-        <p>El JSON debe tener este esquema básico:</p>
-        <pre><code>{
+        <p>Cada test se define con un objeto JSON que debe cumplir estas reglas:</p>
+
+        <ul>
+          <li><code>titulo</code>: nombre del test (texto corto y representativo).</li>
+          <li><code>preguntas</code>: lista de objetos, uno por cada pregunta.</li>
+          <li>Cada pregunta incluye:
+            <ul>
+              <li><code>texto</code>: enunciado de la pregunta.</li>
+              <li><code>opciones</code>: <strong>exactamente 4 respuestas</strong> posibles.</li>
+              <li><code>correcta</code>: número de la opción correcta (1, 2, 3 o 4).</li>
+            </ul>
+          </li>
+        </ul>
+
+        <details open>
+          <summary>Ejemplo válido</summary>
+          <pre><code>{
   "titulo": "Cultura general",
   "preguntas": [
-    { "texto": "¿Capital de Francia?", "opciones": ["Madrid","Roma","Lisboa","París"], "correcta": 4 },
-    { "texto": "¿Autor de Don Quijote?", "opciones": ["Cervantes","Lope","Quevedo","Góngora"], "correcta": 1 }
+    {
+      "texto": "¿Capital de Francia?",
+      "opciones": ["Madrid","Roma","Lisboa","París"],
+      "correcta": 4
+    },
+    {
+      "texto": "¿Autor de Don Quijote?",
+      "opciones": ["Cervantes","Lope","Quevedo","Góngora"],
+      "correcta": 1
+    }
   ]
 }</code></pre>
-        <ul>
-          <li><code>correcta</code> indica la <strong>posición</strong> (1, 2, 3 o 4) de la respuesta válida.</li>
-          <li>Debe haber exactamente <strong>4 opciones</strong> por pregunta.</li>
-          <li>El título puede ajustarse automáticamente si hay duplicados.</li>
-        </ul>
+        </details>
+
+        <details>
+          <summary>Ejemplo con errores frecuentes</summary>
+          <pre><code>{
+  "titulo": "Test mal formado",
+  "preguntas": [
+    {
+      "texto": "¿Capital de Italia?",
+      "opciones": ["Roma","Milán","Nápoles"],  // ❌ Solo 3 opciones
+      "correcta": 0                           // ❌ Debe empezar en 1, no en 0
+    }
+  ]
+}</code></pre>
+        </details>
+
+        <aside role="note">
+          ✔️ Recomendaciones:
+          <ul>
+            <li>Siempre usa 4 opciones.</li>
+            <li>No pongas texto adicional fuera del JSON.</li>
+            <li>El número de la opción correcta empieza en <strong>1</strong> (no en 0).</li>
+          </ul>
+        </aside>
       </section>
+
 
       <section id="tabla-y-acciones" aria-labelledby="h-tabla">
         <h2 id="h-tabla">Tabla de tests y acciones</h2>
-        <p>En la tabla principal verás cada test con sus aciertos, progreso, tiempo invertido y un <strong>desplegable de acciones</strong> por fila. Las acciones disponibles son:</p>
+        <p>En la tabla verás cada test con aciertos, progreso, tiempo invertido y un <strong>menú de acciones</strong>
+          por fila:</p>
         <ul>
           <li><strong>Exportar Test a PDF</strong> — genera un PDF listo para imprimir.</li>
-          <li><strong>Descargar JSON del Test</strong> — guarda el test en un archivo <code>.json</code>.</li>
-          <li><strong>Copiar JSON del Test</strong> — copia el JSON al portapapeles.</li>
-          <li><strong>Reiniciar Test</strong> — borra tus respuestas y el tiempo de ese test (solo localmente).</li>
-          <li><strong>Eliminar Test</strong> — solo aparece para tests personalizados (los de ejemplo no se pueden borrar).</li>
+          <li><strong>Descargar JSON del Test</strong> — guarda el test como archivo <code>.json</code>.</li>
+          <li><strong>Copiar JSON del Test</strong> — lo copia al portapapeles.</li>
+          <li><strong>Reiniciar Test</strong> — borra respuestas y tiempo de ese test.</li>
+          <li><strong>Desordenar Test</strong> — mezcla preguntas y opciones.</li>
+          <li><strong>Restaurar orden del Test</strong> — devuelve el orden original.</li>
+          <li><strong>Eliminar Test</strong> — disponible solo para tests creados por ti.</li>
         </ul>
       </section>
 
       <section id="exportar-pdf" aria-labelledby="h-exportar-pdf">
         <h2 id="h-exportar-pdf">Exportar a PDF</h2>
-        <p>La exportación a PDF crea un documento con:</p>
+        <p>La exportación crea un documento con:</p>
         <ul>
           <li><strong>Título</strong> del test.</li>
-          <li>Cada <strong>pregunta</strong> y sus 4 opciones, con salto de línea automático para textos largos.</li>
-          <li>Marca de agua <em>TestMania.es</em> en cada página.</li>
-          <li>Una <strong>sección final de respuestas correctas</strong> (número, letra y texto de la opción).</li>
+          <li>Cada <strong>pregunta</strong> y sus 4 opciones (con saltos de línea automáticos).</li>
+          <li><strong>Respuestas correctas</strong> al final (número, letra y texto).</li>
         </ul>
         <p>El archivo se descarga con el nombre del test y extensión <code>.pdf</code>.</p>
       </section>
 
+      <section id="interfaz-test" aria-labelledby="h-interfaz">
+        <h2 id="h-interfaz">Interfaz durante un test</h2>
+        <ul>
+          <li><strong>Cronómetro ⏳</strong> — mide el tiempo invertido.</li>
+          <li><strong>Aciertos 🎯</strong> — contador de respuestas correctas sobre el total.</li>
+          <li><strong>Barra de progreso</strong> — muestra porcentaje de aciertos, fallos y pendientes.</li>
+          <li><strong>Menú de acciones</strong> y botón <em>Volver</em> en la cabecera.</li>
+          <li><strong>Mensajes inmediatos</strong> tras responder: ✅ correcta / ❌ incorrecta.</li>
+        </ul>
+      </section>
+
       <section id="donde-se-guardan" aria-labelledby="h-donde-se-guardan">
         <h2 id="h-donde-se-guardan">¿Dónde se guardan mis tests?</h2>
-        <p>
-          Tus tests personalizados se guardan <strong>únicamente en tu navegador</strong> usando almacenamiento local (<em>localStorage</em>).
-          Si borras los datos del navegador, usas otro navegador o cambias de dispositivo, <strong>no aparecerán</strong> automáticamente.
-          Exporta a JSON para hacer copias de seguridad y poder importarlos más tarde.
-        </p>
+        <p>Tus tests se guardan <strong>únicamente en tu navegador</strong> (localStorage).</p>
+        <ul>
+          <li>Si borras los datos del navegador, usas otro navegador o cambias de dispositivo, no aparecerán
+            automáticamente.</li>
+          <li>Haz copia exportando a <code>.json</code> para recuperarlos después.</li>
+        </ul>
       </section>
 
       <section id="preguntas-frecuentes" aria-labelledby="h-faq">
         <h2 id="h-faq">Preguntas frecuentes</h2>
-
         <details>
-          <summary>¿Puedo crear un test sin usar JSON?</summary>
-          <p>De momento la creación es mediante JSON generado (o escrito) por ti. Estamos valorando añadir asistentes más visuales.</p>
+          <summary>¿Puedo crear un test sin JSON?</summary>
+          <p>De momento se crea con JSON. Se estudia añadir asistentes visuales.</p>
         </details>
-
         <details>
           <summary>¿Qué pasa si ya existe un test con el mismo título?</summary>
-          <p>La app lo renombrará automáticamente (p. ej., <em>«Mi test (2)»</em>) para evitar duplicados.</p>
+          <p>La app lo renombra automáticamente (ej.: <em>«Mi test (2)»</em>).</p>
         </details>
-
         <details>
-          <summary>¿Cómo importo un test que exporté antes?</summary>
-          <p>Abre la sección <strong>Crea tu test</strong>, pega el contenido del archivo <code>.json</code> en el cuadro de texto y pulsa <strong>Crear Test</strong>.</p>
+          <summary>¿Cómo importo un test exportado?</summary>
+          <p>Pega el contenido del archivo <code>.json</code> en el cuadro de creación y pulsa <strong>Crear
+              Test</strong>.</p>
         </details>
-
         <details>
-          <summary>¿Se comparten mis tests con otras personas?</summary>
-          <p>No. Tus tests viven en tu navegador, a menos que exportes y compartas el JSON.</p>
+          <summary>¿Se comparten mis tests?</summary>
+          <p>No. Se quedan en tu navegador salvo que los exportes y compartas.</p>
         </details>
       </section>
 
       <section id="privacidad" aria-labelledby="h-privacidad">
         <h2 id="h-privacidad">Privacidad</h2>
-        <p>TestMania no sube tus tests a ningún servidor. Toda la información se mantiene localmente salvo que decidas exportarla o compartirla manualmente.</p>
+        <p>TestMania no envía tus tests a ningún servidor. Todo se mantiene local salvo que decidas exportarlo.</p>
       </section>
 
       <section id="problemas-comunes" aria-labelledby="h-problemas">
         <h2 id="h-problemas">Problemas comunes</h2>
         <details>
-          <summary>«Formato de JSON no válido» al crear un test</summary>
-          <p>Revisa que el JSON esté completo y bien formado: comas, llaves y corchetes en su sitio; 4 opciones por pregunta; y <code>correcta</code> entre 1 y 4.</p>
+          <summary>«Formato de JSON no válido»</summary>
+          <p>Revisa que el JSON tenga 4 opciones por pregunta, números correctos en <code>correcta</code> y estructura
+            válida.</p>
+        </details>
+        <details>
+          <summary>No aparecen mis tests en otro dispositivo</summary>
+          <p>Recuerda: los tests solo se guardan en este navegador. Exporta a <code>.json</code> para trasladarlos.</p>
         </details>
       </section>
     </article>
@@ -152,4 +223,5 @@
     </script>
   </footer>
 </body>
+
 </html>
