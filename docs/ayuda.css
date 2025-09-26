@@ -142,7 +142,6 @@ header a, footer a:hover{ text-decoration:underline; }
   max-width:100%;
   overflow:auto;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size:smaller;
   border-radius:6px;
 }
 
