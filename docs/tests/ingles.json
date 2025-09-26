@@ -1,0 +1,505 @@
+export default {
+  "titulo": "English grammar",
+  "preguntas": [
+    {
+      "texto": "Choose the correct form: She ___ to school every day.",
+      "opciones": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Select the past tense: They ___ a movie yesterday.",
+      "opciones": [
+        "watch",
+        "watches",
+        "watched",
+        "watching"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Which is the correct article? I saw ___ elephant.",
+      "opciones": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Choose the correct pronoun: This book is ___.",
+      "opciones": [
+        "I",
+        "me",
+        "mine",
+        "my"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Select the correct preposition: He is good ___ math.",
+      "opciones": [
+        "at",
+        "on",
+        "in",
+        "with"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the plural form: One child, two ___.",
+      "opciones": [
+        "childs",
+        "children",
+        "childrens",
+        "child"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Select the correct sentence:",
+      "opciones": [
+        "She don’t like apples.",
+        "She doesn’t likes apples.",
+        "She doesn’t like apples.",
+        "She don’t likes apples."
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the comparative: This book is ___ than that one.",
+      "opciones": [
+        "good",
+        "better",
+        "best",
+        "the better"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Which is correct? He ___ swimming now.",
+      "opciones": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Select the correct past participle of 'go'.",
+      "opciones": [
+        "go",
+        "goed",
+        "went",
+        "gone"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "Choose the superlative: This is the ___ day of my life.",
+      "opciones": [
+        "good",
+        "better",
+        "best",
+        "more good"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Select the correct future form: She ___ tomorrow.",
+      "opciones": [
+        "will come",
+        "comes",
+        "come",
+        "coming"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the correct option: There ___ two cats in the garden.",
+      "opciones": [
+        "is",
+        "are",
+        "be",
+        "was"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "What is the past tense of 'have'?",
+      "opciones": [
+        "had",
+        "haved",
+        "has",
+        "have"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the correct question: ___ you like pizza?",
+      "opciones": [
+        "Do",
+        "Does",
+        "Are",
+        "Is"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Select the correct conditional: If it rains, we ___ stay home.",
+      "opciones": [
+        "will",
+        "would",
+        "shall",
+        "can"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the correct sentence:",
+      "opciones": [
+        "He cans swim.",
+        "He can swims.",
+        "He can swim.",
+        "He can swimming."
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Select the correct form: I ___ in Spain last summer.",
+      "opciones": [
+        "am",
+        "is",
+        "was",
+        "were"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the correct option: She has ___ friends.",
+      "opciones": [
+        "much",
+        "many",
+        "a much",
+        "a lot"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Which is correct? They ___ breakfast every morning.",
+      "opciones": [
+        "eat",
+        "eats",
+        "ate",
+        "eaten"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Select the correct article: ___ sun rises in the east.",
+      "opciones": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the correct pronoun: ___ is my brother.",
+      "opciones": [
+        "He",
+        "His",
+        "Him",
+        "She"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Select the correct preposition: I am interested ___ music.",
+      "opciones": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the correct plural: One man, two ___.",
+      "opciones": [
+        "mans",
+        "men",
+        "man",
+        "mens"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Which is correct? She ___ coffee now.",
+      "opciones": [
+        "drinks",
+        "drink",
+        "is drinking",
+        "drank"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the comparative: This car is ___ than that one.",
+      "opciones": [
+        "fast",
+        "faster",
+        "fastest",
+        "more fast"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "What is the past tense of 'buy'?",
+      "opciones": [
+        "buyed",
+        "buys",
+        "bought",
+        "been"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the superlative: She is the ___ student in the class.",
+      "opciones": [
+        "intelligent",
+        "more intelligent",
+        "most intelligent",
+        "intelligenter"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Select the correct option: There ___ a book on the table.",
+      "opciones": [
+        "are",
+        "is",
+        "be",
+        "were"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Which is correct? We ___ to the park yesterday.",
+      "opciones": [
+        "go",
+        "goes",
+        "went",
+        "gone"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the correct sentence:",
+      "opciones": [
+        "She doesn’t like dogs.",
+        "She don’t likes dogs.",
+        "She doesn’t likes dogs.",
+        "She don’t like dogs."
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Select the correct past participle of 'eat'.",
+      "opciones": [
+        "eat",
+        "ate",
+        "eated",
+        "eaten"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "Choose the correct option: They ___ play football on Sundays.",
+      "opciones": [
+        "usually",
+        "usual",
+        "useless",
+        "use"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "What is the opposite of 'hot'?",
+      "opciones": [
+        "cold",
+        "cool",
+        "warm",
+        "freezing"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the correct article: She is ___ honest person.",
+      "opciones": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Select the correct form: He ___ English very well.",
+      "opciones": [
+        "speak",
+        "speaks",
+        "speaking",
+        "spoken"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Which is correct? I ___ watching TV now.",
+      "opciones": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the comparative: Today is ___ than yesterday.",
+      "opciones": [
+        "bad",
+        "worse",
+        "worst",
+        "more bad"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Select the superlative: This is the ___ mountain in the world.",
+      "opciones": [
+        "high",
+        "higher",
+        "highest",
+        "more high"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the correct question: ___ you go to school yesterday?",
+      "opciones": [
+        "Do",
+        "Does",
+        "Did",
+        "Are"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Select the correct pronoun: That house is ___.",
+      "opciones": [
+        "they",
+        "them",
+        "theirs",
+        "their"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the correct form: She ___ a doctor.",
+      "opciones": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Select the correct option: He ___ a car now.",
+      "opciones": [
+        "drives",
+        "drive",
+        "is driving",
+        "drived"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "What is the past tense of 'see'?",
+      "opciones": [
+        "see",
+        "saw",
+        "seen",
+        "seed"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Choose the correct article: We went to ___ cinema yesterday.",
+      "opciones": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Select the correct conditional: If I study, I ___ pass.",
+      "opciones": [
+        "will",
+        "would",
+        "can",
+        "shall"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Choose the correct preposition: The cat is ___ the box.",
+      "opciones": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Which is correct? They ___ happy now.",
+      "opciones": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Choose the correct sentence:",
+      "opciones": [
+        "She have a car.",
+        "She has a car.",
+        "She haves a car.",
+        "She having a car."
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "What is the plural of 'mouse'?",
+      "opciones": [
+        "mouses",
+        "mices",
+        "mouse",
+        "mice"
+      ],
+      "correcta": 4
+    }
+  ]
+};

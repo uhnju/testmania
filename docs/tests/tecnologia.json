@@ -1,0 +1,505 @@
+export default {
+  "titulo": "Tecnología",
+  "preguntas": [
+    {
+      "texto": "¿Quién fundó Microsoft junto a Paul Allen?",
+      "opciones": [
+        "Steve Jobs",
+        "Bill Gates",
+        "Larry Page",
+        "Mark Zuckerberg"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa desarrolló el sistema operativo Android?",
+      "opciones": [
+        "Google",
+        "Apple",
+        "Microsoft",
+        "Samsung"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿En qué año se lanzó el primer iPhone?",
+      "opciones": [
+        "2005",
+        "2006",
+        "2007",
+        "2008"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa la sigla 'HTML'?",
+      "opciones": [
+        "HyperText Markup Language",
+        "HighText Machine Learning",
+        "HyperTool Mark Language",
+        "Home Tool Management Language"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién es el fundador de Tesla y SpaceX?",
+      "opciones": [
+        "Jeff Bezos",
+        "Elon Musk",
+        "Larry Ellison",
+        "Sergey Brin"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa creó el buscador Chrome?",
+      "opciones": [
+        "Yahoo",
+        "Microsoft",
+        "Google",
+        "Mozilla"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa 'CPU'?",
+      "opciones": [
+        "Central Processing Unit",
+        "Central Programming Utility",
+        "Computer Personal Unit",
+        "Control Program Usage"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Cuál fue la primera red social popular en internet?",
+      "opciones": [
+        "Facebook",
+        "MySpace",
+        "Friendster",
+        "Hi5"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa fabrica la consola PlayStation?",
+      "opciones": [
+        "Nintendo",
+        "Microsoft",
+        "Sony",
+        "Sega"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿En qué año se fundó Google?",
+      "opciones": [
+        "1995",
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "¿Qué significa 'URL'?",
+      "opciones": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "Unified Reference Link",
+        "Universal Reference Locator"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién fundó Apple junto a Steve Jobs?",
+      "opciones": [
+        "Bill Gates",
+        "Steve Wozniak",
+        "Larry Page",
+        "Tim Cook"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa lanzó Windows 95?",
+      "opciones": [
+        "IBM",
+        "Microsoft",
+        "Apple",
+        "Intel"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es el lenguaje de programación principal para aplicaciones Android?",
+      "opciones": [
+        "C++",
+        "Python",
+        "Java",
+        "Swift"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa 'AI' en inglés?",
+      "opciones": [
+        "Automatic Interface",
+        "Artificial Intelligence",
+        "Advanced Integration",
+        "Applied Information"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué compañía creó el asistente virtual Alexa?",
+      "opciones": [
+        "Google",
+        "Amazon",
+        "Apple",
+        "Microsoft"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué significa la sigla 'HTTP'?",
+      "opciones": [
+        "HyperText Transfer Protocol",
+        "HyperTool Text Program",
+        "HighText Transfer Process",
+        "Hyper Transfer Text Protocol"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué empresa fabrica los procesadores Ryzen?",
+      "opciones": [
+        "Intel",
+        "Nvidia",
+        "AMD",
+        "Qualcomm"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa la 'S' en 'HTTPS'?",
+      "opciones": [
+        "Safe",
+        "Secure",
+        "System",
+        "Server"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién es conocido como el padre de la informática?",
+      "opciones": [
+        "Charles Babbage",
+        "Alan Turing",
+        "John von Neumann",
+        "Bill Gates"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué empresa creó el sistema operativo macOS?",
+      "opciones": [
+        "Google",
+        "Apple",
+        "IBM",
+        "Microsoft"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué significa 'Wi-Fi'?",
+      "opciones": [
+        "Wireless Fidelity",
+        "Wired File",
+        "Wide Field",
+        "Wireless Finder"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué empresa creó el navegador Firefox?",
+      "opciones": [
+        "Mozilla",
+        "Google",
+        "Microsoft",
+        "Opera"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué compañía lanzó el servicio Gmail?",
+      "opciones": [
+        "Yahoo",
+        "Microsoft",
+        "Google",
+        "AOL"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa 'IoT'?",
+      "opciones": [
+        "Internet of Tools",
+        "Internet of Things",
+        "Input of Technology",
+        "Integration of Tech"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué videojuego popularizó la Nintendo en 1985?",
+      "opciones": [
+        "Sonic",
+        "Super Mario Bros.",
+        "Donkey Kong",
+        "Zelda"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa desarrolló el lenguaje de programación Java?",
+      "opciones": [
+        "Oracle",
+        "Sun Microsystems",
+        "Microsoft",
+        "IBM"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué significa 'USB'?",
+      "opciones": [
+        "Universal Serial Bus",
+        "Universal Software Base",
+        "Unified System Board",
+        "Universal Standard Byte"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué empresa creó el sistema operativo Linux?",
+      "opciones": [
+        "IBM",
+        "Linus Torvalds",
+        "Microsoft",
+        "Apple"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué compañía produce la serie de teléfonos Galaxy?",
+      "opciones": [
+        "Apple",
+        "Samsung",
+        "Huawei",
+        "Xiaomi"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué significa 'VPN'?",
+      "opciones": [
+        "Virtual Private Network",
+        "Virtual Program Node",
+        "Verified Personal Number",
+        "Variable Processing Net"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué empresa creó la computadora Macintosh en 1984?",
+      "opciones": [
+        "IBM",
+        "Apple",
+        "Microsoft",
+        "HP"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué compañía compró LinkedIn en 2016?",
+      "opciones": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Meta"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué significa 'SQL'?",
+      "opciones": [
+        "Structured Query Language",
+        "System Question Logic",
+        "Standard Query Link",
+        "Sequential Query Language"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué empresa es conocida por la serie de tarjetas gráficas GeForce?",
+      "opciones": [
+        "Intel",
+        "AMD",
+        "Nvidia",
+        "Asus"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa '5G'?",
+      "opciones": [
+        "5th Generation",
+        "5 Gigabytes",
+        "5 Global",
+        "5 Grid"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién inventó la World Wide Web?",
+      "opciones": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Tim Berners-Lee",
+        "Larry Page"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué empresa produce la línea Surface de ordenadores?",
+      "opciones": [
+        "Apple",
+        "Dell",
+        "Microsoft",
+        "HP"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa 'GPU'?",
+      "opciones": [
+        "General Processing Unit",
+        "Graphics Processing Unit",
+        "Global Program Utility",
+        "Graphical Power Unit"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa es propietaria de WhatsApp?",
+      "opciones": [
+        "Telegram",
+        "Meta (Facebook)",
+        "Google",
+        "Microsoft"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué sistema operativo móvil utiliza Apple?",
+      "opciones": [
+        "Android",
+        "iOS",
+        "HarmonyOS",
+        "Windows Phone"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa desarrolló el asistente Siri?",
+      "opciones": [
+        "Amazon",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué significa 'URL' en informática?",
+      "opciones": [
+        "Uniform Resource Locator",
+        "Universal Reference Link",
+        "Unique Resource Language",
+        "Unified Remote Link"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué consola introdujo el videojuego 'Halo'?",
+      "opciones": [
+        "PlayStation",
+        "Xbox",
+        "Nintendo 64",
+        "GameCube"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa creó el motor de búsqueda Bing?",
+      "opciones": [
+        "Google",
+        "Yahoo",
+        "Microsoft",
+        "Ask"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué significa 'PDF'?",
+      "opciones": [
+        "Portable Document Format",
+        "Program Data File",
+        "Page Design File",
+        "Portable Data Function"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué compañía fabrica la serie de procesadores Core i7?",
+      "opciones": [
+        "AMD",
+        "Intel",
+        "Qualcomm",
+        "IBM"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué empresa desarrolló el sistema operativo Windows?",
+      "opciones": [
+        "Apple",
+        "Microsoft",
+        "IBM",
+        "Google"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué significa 'BIOS'?",
+      "opciones": [
+        "Basic Input Output System",
+        "Binary Integrated Operating Software",
+        "Basic Internal Operating System",
+        "Bus Input Output System"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué red social fue adquirida por Elon Musk en 2022?",
+      "opciones": [
+        "Instagram",
+        "Twitter (X)",
+        "Reddit",
+        "Snapchat"
+      ],
+      "correcta": 2
+    }
+  ]
+};

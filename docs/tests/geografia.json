@@ -1,0 +1,505 @@
+export default {
+  "titulo": "Geografía mundial",
+  "preguntas": [
+    {
+      "texto": "¿Cuál es la capital de Australia?",
+      "opciones": [
+        "Canberra",
+        "Sídney",
+        "Melbourne",
+        "Perth"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué río es el más largo del mundo según la mayoría de mediciones modernas?",
+      "opciones": [
+        "Nilo",
+        "Amazonas",
+        "Yangtsé",
+        "Misisipi-Misuri"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué continente se encuentra el desierto del Sahara?",
+      "opciones": [
+        "Asia",
+        "África",
+        "Oceanía",
+        "América"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la montaña más alta del planeta sobre el nivel del mar?",
+      "opciones": [
+        "K2",
+        "Kangchenjunga",
+        "Everest",
+        "Lhotse"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué país tiene más población?",
+      "opciones": [
+        "India",
+        "Estados Unidos",
+        "China",
+        "Indonesia"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Cuál es la capital de Canadá?",
+      "opciones": [
+        "Toronto",
+        "Montreal",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué océano es el más grande?",
+      "opciones": [
+        "Atlántico",
+        "Índico",
+        "Ártico",
+        "Pacífico"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "¿En qué país se encuentra la ciudad de Marrakech?",
+      "opciones": [
+        "Túnez",
+        "Argelia",
+        "Marruecos",
+        "Egipto"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Cuál es la capital de Brasil?",
+      "opciones": [
+        "Río de Janeiro",
+        "Brasilia",
+        "São Paulo",
+        "Salvador"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué mar baña las costas de Italia al este?",
+      "opciones": [
+        "Mar Jónico",
+        "Mar Tirreno",
+        "Mar Báltico",
+        "Mar del Norte"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Cuál es el país más grande por superficie?",
+      "opciones": [
+        "Estados Unidos",
+        "Rusia",
+        "Canadá",
+        "China"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué cordillera atraviesa Sudamérica de norte a sur?",
+      "opciones": [
+        "Alpes",
+        "Andes",
+        "Rocosas",
+        "Apeninos"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de Japón?",
+      "opciones": [
+        "Kioto",
+        "Osaka",
+        "Tokio",
+        "Nagoya"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿En qué país está el río Danubio en su desembocadura?",
+      "opciones": [
+        "Alemania",
+        "Serbia",
+        "Rumanía",
+        "Hungría"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Cuál es la capital de Sudáfrica (administrativa)?",
+      "opciones": [
+        "Johannesburgo",
+        "Pretoria",
+        "Ciudad del Cabo",
+        "Bloemfontein"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué lago es el más profundo del mundo?",
+      "opciones": [
+        "Tanganica",
+        "Baikal",
+        "Superior",
+        "Vostok"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de Turquía?",
+      "opciones": [
+        "Estambul",
+        "Esmirna",
+        "Bursa",
+        "Ankara"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "¿Qué país tiene más islas?",
+      "opciones": [
+        "Indonesia",
+        "Filipinas",
+        "Suecia",
+        "Canadá"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Cuál es la capital de Egipto?",
+      "opciones": [
+        "Giza",
+        "Alejandría",
+        "El Cairo",
+        "Luxor"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿En qué continente se ubica Kazajistán?",
+      "opciones": [
+        "Europa",
+        "Asia",
+        "Ambos (Europa y Asia)",
+        "Oceanía"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Cuál es el país más pequeño del mundo?",
+      "opciones": [
+        "Mónaco",
+        "San Marino",
+        "Nauru",
+        "Ciudad del Vaticano"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "¿Qué país no tiene salida al mar?",
+      "opciones": [
+        "Bolivia",
+        "Perú",
+        "Vietnam",
+        "Portugal"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Cuál es la capital de Argentina?",
+      "opciones": [
+        "Córdoba",
+        "Rosario",
+        "Buenos Aires",
+        "Mendoza"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿En qué mar desemboca el río Volga?",
+      "opciones": [
+        "Mar Caspio",
+        "Mar Negro",
+        "Mar Báltico",
+        "Mar de Aral"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Cuál es la capital de Tailandia?",
+      "opciones": [
+        "Chiang Mai",
+        "Bangkok",
+        "Phuket",
+        "Ayutthaya"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué país africano fue conocido como Abisinia?",
+      "opciones": [
+        "Eritrea",
+        "Etiopía",
+        "Somalia",
+        "Sudán"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de Nueva Zelanda?",
+      "opciones": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Hamilton"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué desierto está en Chile y Perú?",
+      "opciones": [
+        "Gobi",
+        "Atacama",
+        "Kalahari",
+        "Sonora"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la península donde se ubica España y Portugal?",
+      "opciones": [
+        "Itálica",
+        "Balcánica",
+        "Escandinava",
+        "Ibérica"
+      ],
+      "correcta": 4
+    },
+    {
+      "texto": "¿Qué país tiene por capital a Varsovia?",
+      "opciones": [
+        "Chequia",
+        "Polonia",
+        "Eslovaquia",
+        "Eslovenia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de Nigeria?",
+      "opciones": [
+        "Lagos",
+        "Abuya",
+        "Kano",
+        "Ibadan"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué estrecho separa África de Europa en el oeste del Mediterráneo?",
+      "opciones": [
+        "Dardanelos",
+        "Bósforo",
+        "Gibraltar",
+        "Messina"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Cuál es la capital de Corea del Sur?",
+      "opciones": [
+        "Seúl",
+        "Busan",
+        "Incheon",
+        "Daegu"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué país sudamericano no tiene salida al mar además de Bolivia?",
+      "opciones": [
+        "Ecuador",
+        "Paraguay",
+        "Uruguay",
+        "Surinam"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es el pico más alto de África?",
+      "opciones": [
+        "Monte Kenia",
+        "Atlas",
+        "Kilimanjaro",
+        "Drakensberg"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué mar separa a Arabia de África oriental?",
+      "opciones": [
+        "Mar Rojo",
+        "Mar Arábigo",
+        "Golfo Pérsico",
+        "Mar Mediterráneo"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Cuál es la capital de Vietnam?",
+      "opciones": [
+        "Ho Chi Minh",
+        "Hanói",
+        "Da Nang",
+        "Hue"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué país se encuentra el río Rin en su desembocadura?",
+      "opciones": [
+        "Alemania",
+        "Países Bajos",
+        "Bélgica",
+        "Francia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de Grecia?",
+      "opciones": [
+        "Tesalónica",
+        "Atenas",
+        "Patras",
+        "Heraclión"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué país posee la isla de Madagascar?",
+      "opciones": [
+        "Comoras",
+        "Francia",
+        "Madagascar",
+        "Mozambique"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Cuál es el lago más grande por superficie?",
+      "opciones": [
+        "Lago Superior",
+        "Lago Victoria",
+        "Mar Caspio",
+        "Lago Hurón"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué país europeo tiene por capital a Reikiavik?",
+      "opciones": [
+        "Irlanda",
+        "Islandia",
+        "Noruega",
+        "Estonia"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de México?",
+      "opciones": [
+        "Guadalajara",
+        "Ciudad de México",
+        "Monterrey",
+        "Puebla"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué cordillera separa Europa de Asia en Rusia?",
+      "opciones": [
+        "Cáucaso",
+        "Urales",
+        "Alpes",
+        "Cárpatos"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de Kenia?",
+      "opciones": [
+        "Mombasa",
+        "Nairobi",
+        "Kisumu",
+        "Nakuru"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿En qué país se encuentra Petra?",
+      "opciones": [
+        "Israel",
+        "Jordania",
+        "Siria",
+        "Líbano"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Cuál es la capital de Filipinas?",
+      "opciones": [
+        "Cebú",
+        "Dávao",
+        "Manila",
+        "Quezón"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué país limita con Francia, Alemania, Italia y Austria?",
+      "opciones": [
+        "Suiza",
+        "Eslovenia",
+        "Hungría",
+        "Luxemburgo"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Cuál es la capital de Perú?",
+      "opciones": [
+        "Cusco",
+        "Arequipa",
+        "Lima",
+        "Trujillo"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué país tiene por capital a Ulaanbaatar (Ulán Bator)?",
+      "opciones": [
+        "Kazajistán",
+        "Mongolia",
+        "Kirguistán",
+        "Uzbekistán"
+      ],
+      "correcta": 2
+    }
+  ]
+};

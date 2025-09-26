@@ -1,0 +1,505 @@
+export default {
+  "titulo": "Arte y literatura",
+  "preguntas": [
+    {
+      "texto": "¿Quién pintó la Mona Lisa?",
+      "opciones": [
+        "Leonardo da Vinci",
+        "Miguel Ángel",
+        "Rafael",
+        "Botticelli"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién escribió 'Don Quijote de la Mancha'?",
+      "opciones": [
+        "Lope de Vega",
+        "Miguel de Cervantes",
+        "Quevedo",
+        "Góngora"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿A qué movimiento pertenece Pablo Picasso?",
+      "opciones": [
+        "Impresionismo",
+        "Cubismo",
+        "Surrealismo",
+        "Expresionismo"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién es el autor de 'La Divina Comedia'?",
+      "opciones": [
+        "Boccaccio",
+        "Dante Alighieri",
+        "Petrarca",
+        "Maquiavelo"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué artista pintó 'La noche estrellada'?",
+      "opciones": [
+        "Van Gogh",
+        "Monet",
+        "Cézanne",
+        "Gauguin"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién escribió 'Cien años de soledad'?",
+      "opciones": [
+        "Mario Vargas Llosa",
+        "Gabriel García Márquez",
+        "Julio Cortázar",
+        "Carlos Fuentes"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué arquitecto diseñó la Sagrada Familia de Barcelona?",
+      "opciones": [
+        "Calatrava",
+        "Moneo",
+        "Gaudí",
+        "Le Corbusier"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién es el autor de 'Hamlet'?",
+      "opciones": [
+        "Shakespeare",
+        "Chaucer",
+        "Marlowe",
+        "Milton"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué pintor fue famoso por sus obras del movimiento surrealista?",
+      "opciones": [
+        "Dalí",
+        "Picasso",
+        "Matisse",
+        "Miró"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién escribió 'La Odisea'?",
+      "opciones": [
+        "Platón",
+        "Aristóteles",
+        "Homero",
+        "Heródoto"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué dramaturgo español es conocido como 'El Fénix de los Ingenios'?",
+      "opciones": [
+        "Tirso de Molina",
+        "Calderón de la Barca",
+        "Lope de Vega",
+        "Quevedo"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué corriente artística impulsó Claude Monet?",
+      "opciones": [
+        "Romanticismo",
+        "Impresionismo",
+        "Cubismo",
+        "Realismo"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién escribió 'La metamorfosis'?",
+      "opciones": [
+        "Kafka",
+        "Camus",
+        "Hesse",
+        "Joyce"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué artista pintó la Capilla Sixtina?",
+      "opciones": [
+        "Leonardo",
+        "Donatello",
+        "Miguel Ángel",
+        "Rafael"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién es el autor de 'El principito'?",
+      "opciones": [
+        "Saint-Exupéry",
+        "Jules Verne",
+        "Victor Hugo",
+        "Balzac"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué escritor ruso creó 'Guerra y paz'?",
+      "opciones": [
+        "Tolstói",
+        "Dostoievski",
+        "Chéjov",
+        "Pushkin"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién pintó 'Las meninas'?",
+      "opciones": [
+        "Velázquez",
+        "Murillo",
+        "Zurbarán",
+        "El Greco"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué poeta escribió 'Romancero gitano'?",
+      "opciones": [
+        "Machado",
+        "Neruda",
+        "Lorca",
+        "Unamuno"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién escribió 'Crimen y castigo'?",
+      "opciones": [
+        "Tolstói",
+        "Dostoievski",
+        "Turguénev",
+        "Gógol"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué pintor neerlandés se cortó una oreja?",
+      "opciones": [
+        "Rembrandt",
+        "Van Gogh",
+        "Vermeer",
+        "Mondrian"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién es el autor de 'Fausto'?",
+      "opciones": [
+        "Goethe",
+        "Schiller",
+        "Nietzsche",
+        "Heine"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué escultor creó 'El pensador'?",
+      "opciones": [
+        "Rodin",
+        "Bernini",
+        "Canova",
+        "Miguel Ángel"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién escribió 'Orgullo y prejuicio'?",
+      "opciones": [
+        "Emily Brontë",
+        "Jane Austen",
+        "Charlotte Brontë",
+        "Mary Shelley"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué pintor es conocido por su estilo expresionista y el cuadro 'El grito'?",
+      "opciones": [
+        "Munch",
+        "Kandinsky",
+        "Kirchner",
+        "Schiele"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién escribió 'La Celestina'?",
+      "opciones": [
+        "Fernando de Rojas",
+        "Lope de Vega",
+        "Tirso de Molina",
+        "Calderón"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué autor escribió 'Ulises'?",
+      "opciones": [
+        "Joyce",
+        "Beckett",
+        "Pound",
+        "Eliot"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién pintó 'Guernica'?",
+      "opciones": [
+        "Miró",
+        "Picasso",
+        "Dalí",
+        "Tàpies"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué escritor chileno recibió el Nobel en 1971?",
+      "opciones": [
+        "Mistral",
+        "Neruda",
+        "Allende",
+        "Edwards"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién escribió 'En busca del tiempo perdido'?",
+      "opciones": [
+        "Proust",
+        "Flaubert",
+        "Balzac",
+        "Zola"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué pintor fue apodado 'el Greco'?",
+      "opciones": [
+        "Doménikos Theotokópoulos",
+        "Francisco de Goya",
+        "Murillo",
+        "Velázquez"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién es el autor de 'Moby Dick'?",
+      "opciones": [
+        "Melville",
+        "Poe",
+        "Twain",
+        "Hawthorne"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién pintó 'El jardín de las delicias'?",
+      "opciones": [
+        "El Bosco",
+        "Brueghel",
+        "Durero",
+        "Giotto"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué dramaturgo escribió 'La vida es sueño'?",
+      "opciones": [
+        "Lope de Vega",
+        "Calderón de la Barca",
+        "Tirso de Molina",
+        "Quevedo"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién escribió 'Frankenstein'?",
+      "opciones": [
+        "Mary Shelley",
+        "Emily Brontë",
+        "Jane Austen",
+        "George Eliot"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué pintor fue conocido como 'el maestro del claroscuro'?",
+      "opciones": [
+        "Caravaggio",
+        "Velázquez",
+        "Rembrandt",
+        "Leonardo"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién es el autor de 'El retrato de Dorian Gray'?",
+      "opciones": [
+        "Oscar Wilde",
+        "Charles Dickens",
+        "Thomas Hardy",
+        "George Bernard Shaw"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué escultor del Renacimiento creó 'David'?",
+      "opciones": [
+        "Donatello",
+        "Miguel Ángel",
+        "Bernini",
+        "Cellini"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién escribió 'La Eneida'?",
+      "opciones": [
+        "Homero",
+        "Virgilio",
+        "Ovidio",
+        "Horacio"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué pintor español es autor de 'Saturno devorando a su hijo'?",
+      "opciones": [
+        "Velázquez",
+        "Goya",
+        "El Greco",
+        "Murillo"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién escribió 'Madame Bovary'?",
+      "opciones": [
+        "Balzac",
+        "Flaubert",
+        "Maupassant",
+        "Zola"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Qué pintor flamenco es famoso por escenas campesinas?",
+      "opciones": [
+        "El Bosco",
+        "Rubens",
+        "Brueghel",
+        "Van Eyck"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién es el autor de 'La montaña mágica'?",
+      "opciones": [
+        "Thomas Mann",
+        "Hermann Hesse",
+        "Goethe",
+        "Kafka"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué pintor impresionista francés pintó 'Impresión, sol naciente'?",
+      "opciones": [
+        "Manet",
+        "Monet",
+        "Degas",
+        "Renoir"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién escribió 'Rayuela'?",
+      "opciones": [
+        "Cortázar",
+        "Borges",
+        "Sabato",
+        "Fuentes"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué pintor fue autor de 'La escuela de Atenas'?",
+      "opciones": [
+        "Leonardo",
+        "Rafael",
+        "Giotto",
+        "Botticelli"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "¿Quién escribió 'El nombre de la rosa'?",
+      "opciones": [
+        "Umberto Eco",
+        "Italo Calvino",
+        "Primo Levi",
+        "Alessandro Manzoni"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Qué artista diseñó la cúpula de San Pedro en Roma?",
+      "opciones": [
+        "Bramante",
+        "Bernini",
+        "Miguel Ángel",
+        "Borromini"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Quién escribió 'Los miserables'?",
+      "opciones": [
+        "Balzac",
+        "Flaubert",
+        "Victor Hugo",
+        "Zola"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "¿Qué pintor fue pionero del expresionismo abstracto?",
+      "opciones": [
+        "Pollock",
+        "Rothko",
+        "Kandinsky",
+        "Klee"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "¿Quién escribió 'La casa de Bernarda Alba'?",
+      "opciones": [
+        "Valle-Inclán",
+        "Lorca",
+        "Unamuno",
+        "Cela"
+      ],
+      "correcta": 2
+    }
+  ]
+};

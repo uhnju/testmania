@@ -1,0 +1,505 @@
+export default {
+  "titulo": "Física y química",
+  "preguntas": [
+    {
+      "texto": "Unidad del SI de fuerza",
+      "opciones": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Partícula con carga negativa",
+      "opciones": [
+        "Protón",
+        "Neutrón",
+        "Electrón",
+        "Positrón"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Número atómico representa",
+      "opciones": [
+        "Neutrones",
+        "Electrones de valencia",
+        "Protones",
+        "Nucleones"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Estado de agregación sin forma ni volumen definidos",
+      "opciones": [
+        "Sólido",
+        "Líquido",
+        "Gas",
+        "Plasma"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Ley que relaciona P y V a T constante",
+      "opciones": [
+        "Boyle",
+        "Charles",
+        "Gay-Lussac",
+        "Avogadro"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Unidad del SI de energía",
+      "opciones": [
+        "Caloría",
+        "Joule",
+        "eV",
+        "Watt"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "pH < 7 indica",
+      "opciones": [
+        "Ácido",
+        "Neutro",
+        "Básico",
+        "Amortiguado"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Aceleración de la gravedad en la Tierra ~",
+      "opciones": [
+        "1.6 m/s²",
+        "9.8 m/s²",
+        "3.7 m/s²",
+        "24.8 m/s²"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Magnitud vectorial",
+      "opciones": [
+        "Masa",
+        "Temperatura",
+        "Velocidad",
+        "Energía"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Isótopos tienen igual",
+      "opciones": [
+        "Protones",
+        "Neutrones",
+        "Masa",
+        "Electrones siempre"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Gas ideal: PV=nRT, R es",
+      "opciones": [
+        "Constante de Planck",
+        "Constante de gases",
+        "Constante dieléctrica",
+        "Constante de Faraday"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Unidad SI de potencia",
+      "opciones": [
+        "J/s",
+        "Watt",
+        "Ambas",
+        "Volt"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Cambio de sólido a gas directo",
+      "opciones": [
+        "Fusión",
+        "Sublimación",
+        "Vaporización",
+        "Deposición"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Conductores buenos son",
+      "opciones": [
+        "Metales",
+        "Cerámicos",
+        "Plásticos",
+        "Vidrios"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Número de Avogadro ≈",
+      "opciones": [
+        "6.02×10²³",
+        "9.81",
+        "1.60×10⁻¹⁹",
+        "3.00×10⁸"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Unidad SI de carga eléctrica",
+      "opciones": [
+        "Volt",
+        "Ohm",
+        "Coulomb",
+        "Ampere"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Ley de Ohm",
+      "opciones": [
+        "P=IV",
+        "E=mc²",
+        "V=IR",
+        "F=ma"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Ácido conjugado de NH₃",
+      "opciones": [
+        "NH₂⁻",
+        "NH₄⁺",
+        "NH₄OH",
+        "N₂"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "La entalpía es función de",
+      "opciones": [
+        "Estado",
+        "Camino",
+        "Tiempo",
+        "Velocidad"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Catión es un átomo con",
+      "opciones": [
+        "Más electrones",
+        "Más protones que electrones",
+        "Más neutrones",
+        "Cero carga"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Unidad SI de presión",
+      "opciones": [
+        "bar",
+        "atm",
+        "Pascal",
+        "torr"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Órbita vs orbital: orbital es",
+      "opciones": [
+        "Trayectoria fija",
+        "Región de probabilidad",
+        "Círculo",
+        "Anillo"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Ley de conservación en reacciones químicos",
+      "opciones": [
+        "Masa",
+        "Carga",
+        "Ambas",
+        "Ninguna"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Enlace iónico típico entre",
+      "opciones": [
+        "Metal y no metal",
+        "Dos metales",
+        "Dos no metales",
+        "Gas noble y metal"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Velocidad de la luz en vacío ~",
+      "opciones": [
+        "3.0×10⁶ m/s",
+        "3.0×10⁸ m/s",
+        "3.0×10¹⁰ m/s",
+        "3.0×10⁵ m/s"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Trabajo mecánico W=",
+      "opciones": [
+        "F·d",
+        "m·g",
+        "½mv²",
+        "k·x"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Energía cinética =",
+      "opciones": [
+        "mgh",
+        "½mv²",
+        "kT",
+        "qV"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Oxidación es",
+      "opciones": [
+        "Ganar e⁻",
+        "Perder e⁻",
+        "Ganar protones",
+        "Perder neutrones"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Agente reductor",
+      "opciones": [
+        "Se oxida",
+        "Se reduce",
+        "No cambia",
+        "Siempre metal"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "pOH + pH =",
+      "opciones": [
+        "7",
+        "1",
+        "14",
+        "0"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Unidad de frecuencia",
+      "opciones": [
+        "Hertz",
+        "Tesla",
+        "Weber",
+        "Gauss"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Electronegatividad alta en",
+      "opciones": [
+        "Francio",
+        "Flúor",
+        "Sodio",
+        "Calcio"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Serie que describe saltos a n=2 en H",
+      "opciones": [
+        "Lyman",
+        "Balmer",
+        "Paschen",
+        "Brackett"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "La resistencia total en serie",
+      "opciones": [
+        "Suma",
+        "Recíprocos",
+        "Producto",
+        "Promedio"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "La resistencia total en paralelo (dos iguales R)",
+      "opciones": [
+        "2R",
+        "R/2",
+        "R",
+        "R²"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Unidad SI de campo eléctrico",
+      "opciones": [
+        "N/C",
+        "C/N",
+        "V·m",
+        "A·s"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Momento lineal p=",
+      "opciones": [
+        "m/a",
+        "m·v",
+        "F·t",
+        "I·ω"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Constante de Planck h≈",
+      "opciones": [
+        "6.63×10⁻³⁴ J·s",
+        "1.38×10⁻²³ J/K",
+        "9.11×10⁻³¹ kg",
+        "8.99×10⁹ N·m²/C²"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Gas ideal: a T constante, V ∝",
+      "opciones": [
+        "P",
+        "1/P",
+        "n²",
+        "R"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "pV trabajo en expansión a presión constante",
+      "opciones": [
+        "W=ΔU",
+        "W=−PΔV",
+        "W=PΔT",
+        "W=−ΔH"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Ecuación Nernst relaciona",
+      "opciones": [
+        "pH y Ka",
+        "E y concentración",
+        "K y T",
+        "P y V"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Unidad SI de campo magnético B",
+      "opciones": [
+        "Tesla",
+        "Weber",
+        "Henry",
+        "Ampere"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Ley de Faraday de inducción",
+      "opciones": [
+        "dΦ/dt induce f.e.m.",
+        "V=IR",
+        "F=qE",
+        "E=mc²"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Masa molar del agua (g/mol)",
+      "opciones": [
+        "16",
+        "18",
+        "20",
+        "14"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Disolución que resiste cambios de pH",
+      "opciones": [
+        "Isotónica",
+        "Amortiguador",
+        "Saturada",
+        "Coloidal"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "Óxido ácido típico",
+      "opciones": [
+        "Na₂O",
+        "CaO",
+        "CO₂",
+        "Cu₂O"
+      ],
+      "correcta": 3
+    },
+    {
+      "texto": "Enlace metálico explica",
+      "opciones": [
+        "Fragilidad",
+        "Conductividad",
+        "Solubilidad",
+        "Apolaridad"
+      ],
+      "correcta": 2
+    },
+    {
+      "texto": "La constante de equilibrio K depende de",
+      "opciones": [
+        "Temperatura",
+        "Presión",
+        "Catalizador",
+        "Volumen"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Catalizador actúa",
+      "opciones": [
+        "Baja Ea",
+        "Aumenta K",
+        "Desplaza equilibrio",
+        "Cambia ΔG°"
+      ],
+      "correcta": 1
+    },
+    {
+      "texto": "Configuración del Neón",
+      "opciones": [
+        "1s²2s²2p⁶",
+        "1s²2s²2p⁵",
+        "1s²2s²2p⁶3s¹",
+        "1s²2s¹"
+      ],
+      "correcta": 1
+    }
+  ]
+};
