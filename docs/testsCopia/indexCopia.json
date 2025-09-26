@@ -3,51 +3,51 @@
   "items": [
     {
       "id": "Geografía mundial",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/geografia.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/geografia.json"
     },
     {
       "id": "Historia universal",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/historia.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/historia.json"
     },
     {
       "id": "Arte y literatura",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/arte.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/arte.json"
     },
     {
       "id": "Deporte",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/deporte.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/deporte.json"
     },
     {
       "id": "Cine",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/cine.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/cine.json"
     },
     {
       "id": "Música",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/musica.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/musica.json"
     },
     {
       "id": "Tecnología",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/tecnologia.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/tecnologia.json"
     },
     {
       "id": "Física y química",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/fisica.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/fisica.json"
     },
     {
       "id": "Psicotécnicos",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/psicotecnicos.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/psicotecnicos.json"
     },
     {
       "id": "English grammar",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/ingles.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/ingles.json"
     },
     {
       "id": "Capitales del mundo",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/capitales_mundo.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/capitales_mundo.json"
     },
     {
       "id": "Historia de España",
-      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/tests/historia_espana.json"
+      "url": "https://cdn.jsdelivr.net/gh/uhnju/testmania@main/docs/testsCopia/historia_espana.json"
     }
   ]
 }
