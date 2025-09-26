@@ -87,33 +87,47 @@
         <details>
           <summary>Ejemplo válido</summary>
           <pre><code>{
-  "titulo": "Cultura general",
-  "preguntas": [
-    {
-      "texto": "¿Capital de Francia?",
-      "opciones": ["Madrid","Roma","Lisboa","París"],
-      "correcta": 4
-    },
-    {
-      "texto": "¿Autor de Don Quijote?",
-      "opciones": ["Cervantes","Lope","Quevedo","Góngora"],
-      "correcta": 1
-    }
-  ]
+   "titulo":"Cultura general",
+   "preguntas":[
+      {
+         "texto":"¿Capital de Francia?",
+         "opciones":[
+            "Madrid",
+            "Roma",
+            "Lisboa",
+            "París"
+         ],
+         "correcta":4
+      },
+      {
+         "texto":"¿Autor de Don Quijote?",
+         "opciones":[
+            "Cervantes",
+            "Lope",
+            "Quevedo",
+            "Góngora"
+         ],
+         "correcta":1
+      }
+   ]
 }</code></pre>
         </details>
 
         <details>
           <summary>Ejemplo con errores frecuentes</summary>
           <pre><code>{
-  "titulo": "Test mal formado",
-  "preguntas": [
-    {
-      "texto": "¿Capital de Italia?",
-      "opciones": ["Roma","Milán","Nápoles"],  // ❌ Solo 3 opciones
-      "correcta": 0                           // ❌ Debe empezar en 1, no en 0
-    }
-  ]
+   "titulo":"Test mal formado",
+   "preguntas":[
+      {
+         "texto":"¿Capital de Italia?",
+         "opciones":[
+            "Roma",
+            "Milán",
+            "Nápoles"
+         ],// ❌ Solo 3 opciones
+         "correcta":0 // ❌ Debe empezar en 1, no en 0
+      }
+   ]
 }</code></pre>
         </details>
 
