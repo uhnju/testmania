@@ -236,6 +236,85 @@
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </footer>
+  <script>
+    function analizarLocalStorageCompleto() {
+      let totalBytes = 0;
+      const items = [];
+
+      console.log("=== ANÁLISIS DETALLADO DEL LOCALSTORAGE ===");
+
+      // Análisis detallado de cada item
+      for (let i = 0; i < localStorage.length; i++) {
+        const clave = localStorage.key(i);
+        const valor = localStorage.getItem(clave);
+        const tamañoItem = (clave.length + valor.length) * 2;
+        totalBytes += tamañoItem;
+
+        items.push({
+          clave: clave,
+          tamañoBytes: tamañoItem,
+          tamañoKB: tamañoItem / 1024
+        });
+
+        console.log(`🔑 ${clave}: ${tamañoItem} bytes (${(tamañoItem / 1024).toFixed(2)} KB)`);
+      }
+
+      // Cálculos de tamaño
+      const kb = totalBytes / 1024;
+      const mb = kb / 1024;
+      const limiteEstimado = 5 * 1024 * 1024; // 5 MB aproximado
+      const porcentajeUsado = (totalBytes / limiteEstimado) * 100;
+
+      console.log("\n=== RESUMEN ===");
+      console.log(`📊 Total items: ${localStorage.length}`);
+      console.log(`💾 Espacio total: ${totalBytes} bytes`);
+      console.log(`💾 Espacio total: ${kb.toFixed(2)} KB`);
+      console.log(`💾 Espacio total: ${mb.toFixed(4)} MB`);
+      console.log(`📈 Límite aproximado: 5-10 MB (depende del navegador)`);
+
+      console.log("\n=== ESTADO DEL ALMACENAMIENTO ===");
+      console.log(`🔄 Porcentaje usado: ${porcentajeUsado.toFixed(2)}%`);
+
+      // Verificación de límites
+      if (totalBytes > limiteEstimado * 0.9) {
+        console.warn("🚨 ⚠️  PELIGRO: LocalStorage cerca del límite máximo");
+      } else if (totalBytes > limiteEstimado * 0.7) {
+        console.warn("⚠️  Advertencia: LocalStorage en más del 70% de capacidad");
+      } else if (totalBytes > limiteEstimado * 0.5) {
+        console.log("ℹ️  Info: LocalStorage en más del 50% de capacidad");
+      } else {
+        console.log("✅ LocalStorage en buen estado de capacidad");
+      }
+
+      // Encontrar items grandes (>10KB)
+      console.log("\n=== ITEMS GRANDES (>10 KB) ===");
+      const itemsGrandes = items.filter(item => item.tamañoKB > 10);
+      if (itemsGrandes.length > 0) {
+        itemsGrandes.forEach(item => {
+          console.log(`🚨 ${item.clave}: ${item.tamañoKB.toFixed(2)} KB`);
+        });
+      } else {
+        console.log("✅ No hay items que excedan 10 KB");
+      }
+
+      // Devolver objeto con toda la información para uso programático
+      return {
+        totalBytes: totalBytes,
+        totalKB: kb,
+        totalMB: mb,
+        totalItems: localStorage.length,
+        porcentajeUsado: porcentajeUsado,
+        items: items,
+        itemsGrandes: itemsGrandes,
+        estado: totalBytes > limiteEstimado * 0.9 ? "peligro" :
+          totalBytes > limiteEstimado * 0.7 ? "advertencia" :
+            totalBytes > limiteEstimado * 0.5 ? "info" : "ok"
+      };
+    }
+
+    // Ejecutar la función
+    const resultado = analizarLocalStorageCompleto();
+  </script>
 </body>
 
 </html>
